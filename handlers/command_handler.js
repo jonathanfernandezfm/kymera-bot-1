@@ -1,17 +1,13 @@
 const fs = require('node:fs');
-var path = require('path');
+const path = require('path');
 
 module.exports = (client) => {
-	const eventsPath = path.join(__dirname, '../events');
-	const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
+	const commandsPath = path.join(__dirname, '../commands');
+	const commandsFiles = fs.readdirSync(commandsPath).filter((file) => file.endsWith('.js'));
 
-	for (const file of eventFiles) {
-		const filePath = path.join(eventsPath, file);
-		const event = require(filePath);
-		if (event.once) {
-			client.once(event.name, (...args) => event.execute(...args));
-		} else {
-			client.on(event.name, (...args) => event.execute(...args));
-		}
+	for (const file of commandsFiles) {
+		const command = require(`../commands/${file}`);
+
+		if (command.name) client.commands.set(command.name, command);
 	}
-}
+};

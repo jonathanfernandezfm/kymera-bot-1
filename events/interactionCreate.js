@@ -3,20 +3,16 @@ const { Events } = require('discord.js');
 module.exports = {
 	name: Events.InteractionCreate,
 	async execute(interaction) {
-		if (!interaction.isChatInputCommand()) return;
+		if (!interaction.isSelectMenu()) return;
 
-		const command = interaction.client.commands.get(interaction.commandName);
-
-		if (!command) {
-			console.error(`No command matching ${interaction.commandName} was found.`);
-			return;
-		}
+		const interactionAction = interaction.client.interactions.get(interaction.customId);
+		if (!interactionAction) return;
 
 		try {
-			await command.execute(interaction);
-		} catch (error) {
-			console.error(`Error executing ${interaction.commandName}`);
-			console.error(error);
+			await interactionAction.execute(interaction);
+		} catch (err) {
+			interaction.reply('there was an error executing this command. 😫');
+			console.log(err);
 		}
 	},
 };
