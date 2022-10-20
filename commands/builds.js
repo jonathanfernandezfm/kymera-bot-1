@@ -28,6 +28,18 @@ module.exports = {
 						label: '🧙‍♂️ Magos',
 						description: 'This is also a description',
 						value: 'magos',
+					},
+					{
+						label: 'Magos',
+						description: 'This is also a description',
+						value: 'magos',
+						emoji: '1032567977595371542'
+					},
+					{
+						label: 'Prueba',
+						description: 'This is also a description',
+						value: 'magos',
+						emoji: '1032567569321840650'
 					}
 				)
 		);
