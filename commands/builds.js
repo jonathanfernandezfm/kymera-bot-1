@@ -5,31 +5,32 @@ module.exports = {
 	description: 'Builds',
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
-			new SelectMenuBuilder()
-				.setCustomId('builds')
-				.setPlaceholder('⬇️ Selecciona que builds quieres ver')
-				.addOptions(
-					{
-						label: '🐺 Caerleon',
-						description: 'This is a description',
-						value: 'caerleon',
-					},
-					{
-						label: '⚔️ ZvZ',
-						description: 'This is also a description',
-						value: 'zvz',
-					},
-					{
-						label: '☠️ Roaming',
-						description: 'This is a description',
-						value: 'roaming',
-					},
-					{
-						label: '🧙‍♂️ Magos',
-						description: 'This is also a description',
-						value: 'magos',
-					},
-				)
+			new SelectMenuBuilder().setCustomId('builds').setPlaceholder('⬇️ Selecciona una opción').addOptions(
+				{
+					label: 'Caerleon',
+					description: 'Captura de puestos avanzados rivales',
+					value: 'caerleon',
+					emoji: '🐺',
+				},
+				{
+					label: 'ZvZ',
+					description: 'Batallas a gran escala',
+					value: 'zvz',
+					emoji: '⚔️',
+				},
+				{
+					label: 'Roaming',
+					description: 'Pelea en mundo abierto',
+					value: 'roaming',
+					emoji: '☠️',
+				},
+				{
+					label: 'Magos',
+					description: 'Captura de embotelladas',
+					value: 'magos',
+					emoji: '🧙‍♂️',
+				}
+			)
 		);
 
 		const embed = new EmbedBuilder()

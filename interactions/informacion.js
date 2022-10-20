@@ -1,8 +1,8 @@
 const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
-	name: 'builds',
-	description: 'Builds interaction',
+	name: 'informacion',
+	description: 'Informacion interaction',
 	execute: async (interaction) => {
 		const embed_caerleon = new EmbedBuilder()
 			.setColor(0x0099ff)
@@ -44,25 +44,25 @@ module.exports = {
 			.setFooter({ text: '📅 Última actualización 17/09/2022' });
 
 		switch (interaction.values[0]) {
-			case 'caerleon':
+			case 'objectives':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
 					embeds: [embed_caerleon],
 				});
-			case 'zvz':
+			case 'activities':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
 					embeds: [embed_zvz],
 				});
-			case 'roaming':
+			case 'fac_caerleon':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
 					embeds: [embed_roaming1, embed_roaming2],
 				});
-			case 'magos':
+			case 'hideout':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
