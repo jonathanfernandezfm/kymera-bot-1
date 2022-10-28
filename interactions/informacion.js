@@ -4,69 +4,54 @@ module.exports = {
 	name: 'informacion',
 	description: 'Informacion interaction',
 	execute: async (interaction) => {
+		const embed_objectives = new EmbedBuilder()
+			.setTitle(
+				'━━━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    OBJETIVOS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━━'
+			)
+			.setColor(2535610)
+			.setDescription(
+				'`🏁` **Objetivos de la season 17**\n\n> 1️⃣⠀Realizar actividades con intención de  un mínimo de IP: 1200 (Roaming, caminos, ganking...)\n\n> 2️⃣⠀Llegar a 25k de puntos de temporada mínimo, con intención de llegar a 40k para subir de calidad.\n\n> 3️⃣⠀Contenido de 20v20, 5v5, caminos avalonianos...  \n\n> 4️⃣⠀Ser más activos en zona negra: Cofres, orbes, arañas...\n'
+			)
+			.setImage('https://i.imgur.com/2RuIEnW.png');
+
 		const embed_caerleon = new EmbedBuilder()
-			.setColor(0x0099ff)
-			.setAuthor({ name: '🐺 Builds para Caerleon outpost' })
-			.setDescription('Haz click en Abrir original')
-			.setImage('https://i.imgur.com/2rrMlw8.png')
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
-
-		const embed_zvz = new EmbedBuilder()
-			.setColor(0x0099ff)
-			.setAuthor({ name: '⚔️ Builds para ZvZ' })
-			.setDescription('Haz click en Abrir original')
-			.setImage('https://i.imgur.com/JwAF1zV.jpg')
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
-
-		const embed_roaming1 = new EmbedBuilder()
-			.setColor(0x0099ff)
-			.setAuthor({ name: '☠️ Builds para roaming TANKE & MELEE' })
-			.setDescription('Haz click en Abrir original')
-			.setImage('https://cdn.discordapp.com/attachments/1015933855359836181/1021819456223199292/tanks_mele.png')
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
-
-		const embed_roaming2 = new EmbedBuilder()
-			.setColor(0x0099ff)
-			.setAuthor({ name: '☠️ Builds para roaming HEAL & SUPPORT & RANGE' })
-			.setDescription('Haz click en Abrir original')
-			.setImage(
-				'https://cdn.discordapp.com/attachments/1015933855359836181/1021819476968222810/supports_healers.png'
+			.setTitle(
+				'━━━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮    FACCIÓN CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
-
-		const embed_magos = new EmbedBuilder()
-			.setColor(0x0099ff)
-			.setAuthor({ name: '🧙‍♂️ Builds para magos' })
-			.setDescription('Haz click en Abrir original')
-			.setImage(
-				'https://cdn.discordapp.com/attachments/1015933855359836181/1021819476968222810/supports_healers.png'
+			.setColor(6235686)
+			.setDescription(
+				'`🐺 Nos enfocamos en la facción de Caerleon`\n\n> Es una actividad que realizamos frecuentemente para la obtención de puntos de facción y así mismo hacer economía y aprender en cuanto a posicionamiento en peleas a baja escala. No es obligatorio asistir, pero sí aconsejable. \n\n> No importa si mueres, el <#1015940190583402506> hace que se pueda reequipar si el jugador tiene el mínimo requerido.\n\n> Para poder distinguir a los jugadores que cumplen los requisitos de los que no, se hará por el rol  de "Caerleon" con su respectivo icono.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚔️`  **El mínimo recomendado y para optar a regear:**\n\n``` Mínimo de IP con la build equipada ➟ +1200\n Ramas de arma principal al 75 de spec ➟ 2```'
 			)
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
+			.setImage('https://i.imgur.com/4YvKhHO.png');
+
+		const embed_hideout = new EmbedBuilder()
+			.setTitle(
+				'━━━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    HIDEOUT    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━━'
+			)
+			.setColor(8767009)
+			.setDescription(
+				'> **Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Para acceder a la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
+			)
+			.setImage('https://i.imgur.com/uxktgRm.png');
 
 		switch (interaction.values[0]) {
 			case 'objectives':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_caerleon],
-				});
-			case 'activities':
-				return await interaction.reply({
-					content: '',
-					ephemeral: true,
-					embeds: [embed_zvz],
+					embeds: [embed_objectives],
 				});
 			case 'fac_caerleon':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_roaming1, embed_roaming2],
+					embeds: [embed_caerleon],
 				});
 			case 'hideout':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_magos],
+					embeds: [embed_hideout],
 				});
 			default:
 				return;
