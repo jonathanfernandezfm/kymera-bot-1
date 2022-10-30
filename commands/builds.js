@@ -40,7 +40,7 @@ module.exports = {
 			.setDescription('Some description here');
 
 		await msg.channel.send({
-			content: '',
+			content: 'ㅤ    ',
 			ephemeral: true,
 			embeds: [embed],
 			components: [row],
