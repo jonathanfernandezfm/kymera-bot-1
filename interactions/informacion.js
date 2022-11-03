@@ -20,9 +20,9 @@ module.exports = {
 			)
 			.setColor(6235686)
 			.setDescription(
-				'`🐺` **Nos enfocamos en la facción de Caerleon**\n\n> Es una actividad que realizamos frecuentemente para la obtención de puntos de facción y así mismo hacer economía y aprender en cuanto a posicionamiento en peleas a baja escala. No es obligatorio asistir, pero sí aconsejable. \n\n> Si mueres, el <#1015940190583402506> hace que se pueda reequipar si el jugador tiene el mínimo requerido.\n\n> Para poder distinguir a los jugadores que cumplen los requisitos de los que no, se hará por el rol  de **"Caerleon"** con su respectivo icono.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚔️`  **El mínimo recomendado y para optar a regear:**\n\n``` Mínimo de IP con la build equipada ➟ +1200\n Ramas de arma principal al 75 de spec ➟ 2```'
+				'`🐺` **Nos enfocamos en la facción de Caerleon**\n\n> Es una actividad que realizamos frecuentemente para la obtención de puntos de facción y así mismo hacer economía y aprender en cuanto a posicionamiento en peleas a baja escala. No es obligatorio asistir, pero sí aconsejable. \n\n> Si mueres, el <#1015940190583402506> hará que se pueda reequipar si el jugador tiene el mínimo requerido.\n\n> Para poder distinguir a los jugadores que cumplen los requisitos de los que no, se hará por el rol  de **"Caerleon"** con su respectivo icono.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚔️`  **El mínimo recomendado y para optar a regear:**\n\n``` Mínimo de IP con la build equipada ➟ +1200\n Ramas de arma principal al 75 de spec ➟ 2```'
 			)
-			.setImage('https://i.imgur.com/4YvKhHO.png');
+			.setImage('https://i.imgur.com/xWRiZLC.png');
 
 		const embed_hideout = new EmbedBuilder()
 			.setTitle(
@@ -30,7 +30,7 @@ module.exports = {
 			)
 			.setColor(8767009)
 			.setDescription(
-				'> <:icono_hideout:1034077724710535198> **Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Para acceder a la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
+				'> <:icono_hideout:1037691104960725013> **Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Para acceder a la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
 			)
 			.setImage('https://i.imgur.com/uxktgRm.png');
 
