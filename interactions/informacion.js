@@ -20,7 +20,7 @@ module.exports = {
 			)
 			.setColor(6235686)
 			.setDescription(
-				'<:icono_Caerleon:1034486619459309638> **Nos enfocamos en la facción de Caerleon**\n\n> Es una actividad que realizamos frecuentemente para la obtención de puntos de facción y así mismo hacer economía y aprender en cuanto a posicionamiento en peleas a baja escala. No es obligatorio asistir, pero sí aconsejable. \n\n> Si mueres, el <#1015940190583402506> hace que se pueda reequipar si el jugador tiene el mínimo requerido.\n\n> Para poder distinguir a los jugadores que cumplen los requisitos de los que no, se hará por el rol  de **"Caerleon"** con su respectivo icono.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚔️`  **El mínimo recomendado y para optar a regear:**\n\n``` Mínimo de IP con la build equipada ➟ +1200\n Ramas de arma principal al 75 de spec ➟ 2```'
+				'`🐺` **Nos enfocamos en la facción de Caerleon**\n\n> Es una actividad que realizamos frecuentemente para la obtención de puntos de facción y así mismo hacer economía y aprender en cuanto a posicionamiento en peleas a baja escala. No es obligatorio asistir, pero sí aconsejable. \n\n> Si mueres, el <#1015940190583402506> hace que se pueda reequipar si el jugador tiene el mínimo requerido.\n\n> Para poder distinguir a los jugadores que cumplen los requisitos de los que no, se hará por el rol  de **"Caerleon"** con su respectivo icono.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚔️`  **El mínimo recomendado y para optar a regear:**\n\n``` Mínimo de IP con la build equipada ➟ +1200\n Ramas de arma principal al 75 de spec ➟ 2```'
 			)
 			.setImage('https://i.imgur.com/4YvKhHO.png');
 
