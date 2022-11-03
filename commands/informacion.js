@@ -9,17 +9,17 @@ module.exports = {
 				{
 					label: 'Objetivos de la season',
 					value: 'objectives',
-					emoji: '1035683134349529108',
+					emoji: '🎯',
 				},
 				{
 					label: 'Facción Caerleon',
 					value: 'fac_caerleon',
-					emoji: '1034486619459309638',
+					emoji: '🐺',
 				},
 				{
 					label: 'Hideout',
 					value: 'hideout',
-					emoji: '1034077724710535198',
+					emoji: '1037691104960725013',
 				}
 			)
 		);
@@ -27,11 +27,11 @@ module.exports = {
 		const embed = new EmbedBuilder()
       
 			.setTitle('ㅤㅤㅤ         ❮❮    BIENVENIDO A KYMERA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
-			.setColor(3697893)
+			.setColor("386CE5") //
 			.setDescription(
 				'\n\n> `🌐` Aquí encontrarás información esencial sobre el contenido que realizamos, objetivos de season, zona por la que nos movemos, hideout y puntos importantes a tener en cuenta.\n\n> `🏰` Actualmente nuestro contenido se enfoca en el portal de __**Bridgewatch**__. Podrás acceder a la isla privada del gremio mediante el viajante en la pestaña **"Kymera Bridgewatch"**.\n\n> `⚠️` Para ver los diferentes apartados que hay disponible actualmente, haz click en el menú desplegable de abajo.\n'
 			)
-			.setImage('https://i.imgur.com/f7IO2NK.png');
+			.setImage('https://i.imgur.com/EkOZeZT.png');
 
 		await msg.channel.send({
 			content: 'ㅤ    ',
