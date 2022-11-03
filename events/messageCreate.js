@@ -17,7 +17,7 @@ module.exports = {
 		try {
 			await command.execute(message, args);
 		} catch (err) {
-			message.reply('there was an error executing this command. 😫');
+			message.reply({ content: 'there was an error executing this command. 😫', ephemeral: true });
 			console.log(err);
 		}
 	},
