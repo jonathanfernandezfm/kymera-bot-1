@@ -8,18 +8,18 @@ module.exports = {
 			new SelectMenuBuilder().setCustomId('isla').setPlaceholder('Seleccionar una opción').addOptions(
 				{
 					label: 'Distribución de cofres personales',
-					value: 'objectives',
+					value: 'distribucion',
 					emoji: '1022572341160587354',
 				},
 				{
 					label: 'Sistema de repartición de loot',
-					value: 'fac_caerleon',
+					value: 'reparto',
 					emoji: '1037148095160537109',
 				},
 				{
 					label: 'Reclamar cofre personal',
-					value: 'hideout',
-					emoji: '🎟️',
+					value: 'reclamar',
+					emoji: '1038088982468231168',
 				}
 			)
 		);

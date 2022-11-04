@@ -4,7 +4,7 @@ module.exports = {
 	name: 'isla',
 	description: 'Informacion interaction',
 	execute: async (interaction) => {
-		const embed_objectives = new EmbedBuilder()
+		const embed_cofres = new EmbedBuilder()
 			.setTitle(
 				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮     COFRES PERSONALES    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
@@ -14,15 +14,15 @@ module.exports = {
 			)
 			.setImage('https://i.imgur.com/LpRs2u3.png');
 
-		const embed_caerleon = new EmbedBuilder()
+		const embed_loot = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮    FACCIÓN CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                       ❮❮     REPARTO DE LOOT    ❯❯  ㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor("386CE5") //
 			.setDescription(
-				'<:icono_Caerleon:1037142309696962690> Nos enfocamos en la facción de Caerleon\n\n> Es una actividad que realizamos frecuentemente para la obtención de puntos de facción y así mismo hacer economía y aprender en cuanto a posicionamiento en peleas a baja escala. No es obligatorio asistir, pero sí aconsejable. \n\n> No importa si mueres, el <#1015940190583402506> hace que se pueda reequipar si el jugador tiene el mínimo requerido.\n\n> Para poder distinguir a los jugadores que cumplen los requisitos de los que no, se hará por el rol  de "Caerleon" con su respectivo icono.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚔️`  **El mínimo recomendado y para optar a regear:**\n\n``` Mínimo de IP con la build equipada ➟ +1200\n Ramas de arma principal al 75 de spec ➟ 2```'
+				'`🐺` **El loot de las actividades que tengan que ver con Caerleon** irán destinadas al DNT system, en su respectiva pestaña dentro de la isla del gremio. Nadie se quedará con los items una vez looteados del cadáver. \n\n > ➟ <#1015940190583402506> \n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`🎰` **El loot de las actividades grupales** (tales como roaming, caminos, gankeos...) formadas por los propios miembros de Kymera irá destinado al cofre general, que será repartido por integrantes de la administración.\n \n>  ➟ <#1019718077316878409>\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`👥` **En los grupos formados para realizar actividades de fama** el loot recogido de cadáveres en las peleas se repartirá entre los miembros de la party, excepto el loot de los cofres de estáticas, que será de uso propio.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚠️`  **Es de obligación realizar una screenshot inicial** de los integrantes que vayan a formar el grupo para el desarrollo de las actividades.'
 			)
-			.setImage('https://i.imgur.com/4YvKhHO.png');
+			.setImage('https://i.imgur.com/EAUuTFn.png');
 
 		const embed_hideout = new EmbedBuilder()
 			.setTitle(
@@ -35,19 +35,19 @@ module.exports = {
 			.setImage('https://i.imgur.com/uxktgRm.png');
 
 		switch (interaction.values[0]) {
-			case 'objectives':
+			case 'distribucion':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_objectives],
+					embeds: [embed_cofres],
 				});
-			case 'fac_caerleon':
+			case 'reparto':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_caerleon],
+					embeds: [embed_loot],
 				});
-			case 'hideout':
+			case 'reclamar':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,

@@ -5,18 +5,12 @@ module.exports = {
 	description: 'Crea mensaje de formulario',
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
-			new ButtonBuilder().setCustomId('formulario').setEmoji('📤').setStyle(ButtonStyle.Primary)
+			new ButtonBuilder().setCustomId('formulario').setLabel('Rellenar formulario 📝').setStyle(ButtonStyle.Secondary)
 		);
 
-		const embed = new EmbedBuilder().setColor(3697893).setDescription(
-			`\`📝 FORMULARIO DE APLICACIÓN A KYMERA\`\n
-				Pulsa el botón "📤" para acceder al formulario.\n
-				Se te abrirá una nueva conversación en tus mensajes privados para proceder con las preguntas.\n
-				\`⚠️ Recuerda tener tus mensajes privados activos\`\n
-				⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻\n
-				➣ Si has sido aceptado, te aparecerá un mensaje privado con un ⮕ \`✅\`
-				➣ Si no has sido aceptado, te aparecerá un mensaje privado con un ⮕ \`❌\`\n
-				⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻`
+		const embed = new EmbedBuilder().setColor("#FFCA38") //
+      .setDescription(
+			`\n\n > \`📝\` Para acceder al formulario pulsa en el botón de abajo**\n\n\`⚠️\` Es obligatorio que tu nombre de Albion Online sea el que uses actualmente y se corresponda con el usuario de tu discord.\n\n > \`️📜\` El equipo de reclutadores leerá tu solicitud y te atenderá cuanto antes.\n`
 		);
 
 		await msg.channel.send({
