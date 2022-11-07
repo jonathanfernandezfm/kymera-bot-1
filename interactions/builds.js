@@ -39,7 +39,7 @@ module.exports = {
 			.setAuthor({ name: '🧙‍♂️ Builds para magos' })
 			.setDescription('Haz click en Abrir original')
 			.setImage(
-				'https://cdn.discordapp.com/attachments/1015933855359836181/1021819476968222810/supports_healers.png'
+				'https://media.discordapp.net/attachments/1009895511450452099/1009895543977283594/unknown.png'
 			)
 			.setFooter({ text: '📅 Última actualización 17/09/2022' });
 

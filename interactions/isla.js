@@ -30,7 +30,7 @@ module.exports = {
 			)
 			.setColor("386CE5") //
 			.setDescription(
-				'> <:icono_hideout:1034077724710535198> **Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Para acceder a la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
+				'> AQUÍ SISTEMA DE RECLAMAR'
 			)
 			.setImage('https://i.imgur.com/uxktgRm.png');
 

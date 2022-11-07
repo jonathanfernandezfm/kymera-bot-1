@@ -14,7 +14,7 @@ module.exports = {
 		const previous_embed = interaction.message.embeds[0];
 		const embed_formulario = EmbedBuilder.from(previous_embed)
 			.setColor('#17fc03')
-			.setTitle(`\`✅ Aceptado por ${interaction.user.tag}\``);
+			.setTitle(`✅ Aceptado por ${interaction.user.tag} `);
 
 		await interaction.message.edit({
 			embeds: [embed_formulario],
