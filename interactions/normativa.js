@@ -59,9 +59,9 @@ module.exports = {
 			.setTitle(
 				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮    NORMATIVA CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
-			.setColor("#EC0000")
+			.setColor("#5f2626")
 			.setDescription(
-				'`🐺` d'
+				'`Normas aplicables únicamente a Fama`'
 			)
 
       .addFields(  
@@ -83,7 +83,7 @@ module.exports = {
         {
                name: 'ㅤ' ,
                value: "> :four:  **Se dará un primer aviso** si se perjudica a una party de full Kymera. El siguiente aviso será expulsión (*Bombearlos , ir con oso a joder, revelar posición*)",
-               inline: false,
+               inline: true,
              },
              {
                name: 'ㅤ' ,
@@ -93,39 +93,66 @@ module.exports = {
         {
                name: 'ㅤ' ,
                value: ">  :six:  **No toleramos lloros ni quejas**, solo queremos soluciones.",
-               inline: true,
+               inline: false,
              },
             )
 			.setImage('https://i.imgur.com/MHyJTVe.png');
 
-		const embed_hideout = new EmbedBuilder()
+		const embed_nfama = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    HIDEOUT    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    NORMATIVA FAMA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
-			.setColor(8767009)
+			.setColor("#c5bd63")
 			.setDescription(
-				'> <:icono_hideout:1037691104960725013> **Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Para acceder a la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
+				'`Normas aplicables únicamente a Fama`'
 			)
-			.setImage('https://i.imgur.com/uxktgRm.png');
+      .addFields(  
+           {
+              name: 'ㅤ' ,
+              value: "> :one:  **El party líder es quien dirige la party**, elige quien va, que builds llevar y que IP mínimo. Podrá kickear libremente si no se le respeta.",
+              inline: true,
+            },
+             {
+               name: 'ㅤ' ,
+               value: "> :two:  **Al caller designado se le hará caso y se le escuchará en todo momento**, de lo contrario, este podrá expulsar a cualquier miembro de la party.",
+               inline: true,
+             },
+        {
+               name: 'ㅤ' ,
+               value: "> :three:  **El líder no está obligado a aceptar a todo el mundo**, es su party, ponen sus reglas y el límite de miembros que asistirán.",
+               inline: false,
+             },
+        {
+               name: 'ㅤ' ,
+               value: "> :four: **No toleramos lloros ni quejas**, solo soluciones.",
+               inline: true,
+             },
+             {
+               name: 'ㅤ' ,
+               value: "> :five:  Si hay más de una party en la misma Dungeon, **se dividirá**, o  tendrá prioridad **la que más IP tenga con set de pelea**. ",
+               inline: true,
+             },
+        )
+			.setImage('https://i.imgur.com/wMvrGAv.png');
 
 		switch (interaction.values[0]) {
-			case 'n_general':
+			case 'general':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
 					embeds: [embed_general],
 				});
-			case 'fac_caerleon':
+			case 'ncaerleon':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
 					embeds: [embed_ncaerleon],
 				});
-			case 'hideout':
+			case 'nfama':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_hideout],
+					embeds: [embed_nfama],
 				});
 			default:
 				return;

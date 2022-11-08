@@ -8,17 +8,17 @@ module.exports = {
 			new SelectMenuBuilder().setCustomId('normativa').setPlaceholder('Seleccionar una opción').addOptions(
 				{
 					label: 'Normativa General',
-					value: 'n_general',
+					value: 'general',
 					emoji: '📔',
 				},
 				{
 					label: 'Normativa Caerleon',
-					value: 'n_caerleon',
+					value: 'ncaerleon',
 					emoji: '📕',
 				},
 				{
 					label: 'Normativa Fama',
-					value: 'n_fama',
+					value: 'nfama',
 					emoji: '📘',
 				}
 			)
