@@ -36,9 +36,9 @@ module.exports = {
 			playerDataBody.LifetimeStatistics.Gathering.All.Total;
 
 		const embed = new EmbedBuilder()
-			.setColor(3697893)
-			.setTitle('`📝 Nuevo formulario`')
-			.setDescription(`👤 Usuario en Discord: <@${interaction.user.id}>\n`)
+			.setColor("#ffca38")
+			.setTitle('📝 Nuevo formulario de ingreso')
+			.setDescription(`👤 Usuario en Discord: <@${interaction.user.id}>\nㅤ\n`)
 			.setThumbnail(interaction.user.displayAvatarURL())
 			.addFields(
 				{ name: '1) Nombre de usuario en Albion:', value: `> ${nombre}` },
@@ -52,11 +52,11 @@ module.exports = {
 		const channel = await interaction.guild.channels.fetch(canal_formulario);
 
 		await channel.send({
-			content: `> Formulario de <@${interaction.user.id}>`,
+			content: `> <@&1031119833024167972>, nuevo formulario de <@${interaction.user.id}>`,
 			embeds: [embed],
 			components: [row],
 		});
 
-		return interaction.reply({ content: '✅ Tu formulario ha sido enviado correctamente', ephemeral: true });
+		return interaction.reply({ content: '`✅` Tu formulario ha sido enviado correctamente a nuestro equipo de reclutadores', ephemeral: true });
 	},
 };

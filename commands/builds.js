@@ -5,7 +5,7 @@ module.exports = {
 	description: 'Builds',
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
-			new SelectMenuBuilder().setCustomId('builds').setPlaceholder('⬇️ Selecciona una opción').addOptions(
+			new SelectMenuBuilder().setCustomId('builds').setPlaceholder('Selecciona una opción').addOptions(
 				{
 					label: 'Caerleon',
 					description: 'Captura de puestos avanzados rivales',
@@ -20,13 +20,13 @@ module.exports = {
 				},
 				{
 					label: 'Roaming',
-					description: 'Pelea en mundo abierto',
+					description: 'Objetivos en mundo abierto',
 					value: 'roaming',
-					emoji: '☠️',
+					emoji: '🐎',
 				},
 				{
 					label: 'Magos',
-					description: 'Captura de embotelladas',
+					description: 'Captura de magos embotellados',
 					value: 'magos',
 					emoji: '🧙‍♂️',
 				}
@@ -34,10 +34,12 @@ module.exports = {
 		);
 
 		const embed = new EmbedBuilder()
-			.setColor(0x0099ff)
-			.setTitle('Some title')
-			.setURL('https://discord.js.org')
-			.setDescription('Some description here');
+			.setTitle('ㅤㅤㅤ                           ❮❮    BUILDS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
+			.setColor("#E9A6F2")
+			.setDescription(
+				'\n\n> `⚔️` Aquí encontrarás información importante sobre la composición de builds que usamos para cada actividad.\n\n> `⚠️` Para acceder a los apartados haz click en el menú de abajo para navegar entre las diferentes composiciones.\n'
+			)
+			.setImage('https://i.imgur.com/KuyLm6D.png');
 
 		await msg.channel.send({
 			content: 'ㅤ    ',

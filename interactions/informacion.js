@@ -8,7 +8,7 @@ module.exports = {
 			.setTitle(
 				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    OBJETIVOS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
-			.setColor(2535610)
+			.setColor("#FFA91E")
 			.setDescription(
 				'`🎯` **Objetivos de la season 17**\n\n> 1️⃣⠀Realizar actividades con intención de  un mínimo de IP: 1200 (Roaming, caminos, ganking...)\n\n> 2️⃣⠀Llegar a 25k de puntos de temporada mínimo, con intención de llegar a 40k para subir de calidad.\n\n> 3️⃣⠀Contenido diario para subir armas principales, grupos de 20v20, 5v5, caminos avalonianos...  \n\n> 4️⃣⠀Ser más activos en zona negra para subir en el ranking y mantener el HO: Cofres, orbes, arañas...\n'
 			)
@@ -18,7 +18,7 @@ module.exports = {
 			.setTitle(
 				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮    FACCIÓN CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
-			.setColor(6235686)
+			.setColor("#EC0000")
 			.setDescription(
 				'`🐺` **Nos enfocamos en la facción de Caerleon**\n\n> Es una actividad que realizamos frecuentemente para la obtención de puntos de facción y así mismo hacer economía y aprender en cuanto a posicionamiento en peleas a baja escala. No es obligatorio asistir, pero sí aconsejable. \n\n> Si mueres, el <#1015940190583402506> hará que se pueda reequipar si el jugador tiene el mínimo requerido.\n\n> Para poder distinguir a los jugadores que cumplen los requisitos de los que no, se hará por el rol  de **"Caerleon"** con su respectivo icono.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚔️`  **El mínimo recomendado y para optar a regear:**\n\n``` Mínimo de IP con la build equipada ➟ +1200\n Ramas de arma principal al 75 de spec ➟ 2```'
 			)

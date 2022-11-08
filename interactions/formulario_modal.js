@@ -27,7 +27,7 @@ module.exports = {
 		const contenidoInput = new TextInputBuilder()
 			.setCustomId('pregunta_contenido')
 			.setLabel('¿Qué contenido quieres hacer en Kymera?')
-			.setPlaceholder('PvP, PvE, Roaming, Caerleon, etc')
+			.setPlaceholder('PvP, Roaming, Caerleon...')
 			.setStyle(TextInputStyle.Short);
 
 		const guildInput = new TextInputBuilder()

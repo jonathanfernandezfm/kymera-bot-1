@@ -19,7 +19,7 @@ module.exports = {
 				{
 					label: 'Reclamar cofre personal',
 					value: 'reclamar',
-					emoji: '1038088982468231168',
+					emoji: '🎟️',
 				}
 			)
 		);
@@ -29,7 +29,7 @@ module.exports = {
 			.setTitle('ㅤㅤㅤ               ❮❮    ISLA BRIDGEWATCH    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
 			.setColor(3697893)
 			.setDescription(
-				'\n\n> `🏝️` Aquí encontrarás información esencial sobre nuestra isla (situada en Bridgewatch portal), los cofres personales de los integrantes de la guild y el sistema de repartición de loot.\n\n> `🎰` Para la repartición del loot hay disponible un cofre general donde todos los miembros que sean <@&1016043570773381190> en adelante podrán hacerlo sin necesidad de que haya un integrante del equipo de administración conectado.\n\n> `⚠️` Si aún no se te ha asignado un cofre personal, haz click en la opcion "Reclamar cofre personal" para abrir un ticket.\n'
+				'\n\n> `🏝️` Aquí encontrarás información esencial sobre nuestra isla (situada en Bridgewatch portal), los cofres personales de los integrantes de la guild y el sistema de reparto de loot.\n\n> `🎰` Para el reparto del loot hay disponible un cofre general donde todos los miembros que sean <@&1016043570773381190> en adelante podrán hacerlo sin necesidad de que haya un integrante del equipo de administración conectado.\n\n> `⚠️` Si aún no se te ha asignado un cofre personal, haz click en la opcion "Reclamar cofre personal" para abrir un ticket.\n'
 			)
 			.setImage('https://i.imgur.com/Uj5cgtx.png');
 
