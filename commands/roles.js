@@ -5,7 +5,7 @@ module.exports = {
 	description: 'Roles',
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
-			new SelectMenuBuilder().setCustomId('roles').setPlaceholder('Seleccionar una opción').addOptions(
+      new SelectMenuBuilder().setCustomId('roles').setPlaceholder('Seleccionar una opción').addOptions(
 				{
 					label: 'Roles más usados actualmente',
 					value: 'rolesusados1',

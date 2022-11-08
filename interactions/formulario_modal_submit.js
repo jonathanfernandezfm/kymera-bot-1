@@ -36,7 +36,7 @@ module.exports = {
 			playerDataBody.LifetimeStatistics.Gathering.All.Total;
 
 		const embed = new EmbedBuilder()
-			.setColor(3697893)
+			.setColor("#ffca38")
 			.setTitle('📝 Nuevo formulario de ingreso')
 			.setDescription(`👤 Usuario en Discord: <@${interaction.user.id}>\nㅤ\n`)
 			.setThumbnail(interaction.user.displayAvatarURL())
@@ -52,11 +52,11 @@ module.exports = {
 		const channel = await interaction.guild.channels.fetch(canal_formulario);
 
 		await channel.send({
-			content: `> <@1031119833045151777>`,
+			content: `> <@&1031119833024167972>, nuevo formulario de <@${interaction.user.id}>`,
 			embeds: [embed],
 			components: [row],
 		});
 
-		return interaction.reply({ content: '✅ Tu formulario ha sido enviado correctamente', ephemeral: true });
+		return interaction.reply({ content: '`✅` Tu formulario ha sido enviado correctamente a nuestro equipo de reclutadores', ephemeral: true });
 	},
 };

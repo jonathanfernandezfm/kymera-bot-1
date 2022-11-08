@@ -5,7 +5,7 @@ module.exports = {
 	description: 'Crea mensaje de formulario',
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
-			new ButtonBuilder().setCustomId('formulario').setLabel('Rellenar formulario 📝').setStyle(ButtonStyle.Secondary)
+			new ButtonBuilder().setCustomId('formulario').setLabel('Rellenar formulario 📝').setStyle(ButtonStyle.Success)
 		);
 const embed = new EmbedBuilder().setColor("#FFCA38") //
       .setDescription(

@@ -13,8 +13,8 @@ module.exports = {
 		}
 		const previous_embed = interaction.message.embeds[0];
 		const embed_formulario = EmbedBuilder.from(previous_embed)
-			.setColor('#17fc03')
-			.setTitle(`✅ Aceptado por ${interaction.user.tag} `);
+			.setColor('#64FF64')
+			.setDescription(`✅ Aceptado por el <@&1031119833024167972> - <@${interaction.user.id}> \nㅤ⠀⠀⠀⠀⠀⠀⠀\n`);
 
 		await interaction.message.edit({
 			embeds: [embed_formulario],
@@ -28,9 +28,11 @@ module.exports = {
 		person.roles.add(rol_formulario);
 
 		const embed_response = new EmbedBuilder()
-			.setColor('#17fc03')
-			.setTitle('Tu formulario ha sido aceptado ✅')
-			.setDescription('test'); // TODO
+			.setColor('#64ff64')
+			.setTitle('`✅` __Tu formulario ha sido aceptado__ ')
+			.setDescription('**¡Has obtenido el rol de <@&1016043481183031397>!**\n\nEs importante que leas la normativa si no lo has hecho anteriormente \n> ➟ <#1003699981032640542>\n\nLee el decálogo de los integrantes de nuestro gremio \n> ➟ <#1039132556165124116>\n\nConoce más acerca de los rangos del gremio y su funcionamiento \n> ➟ <#1015930698609213450>\n\nInfórmate acerca de los roles y como solicitarlos \n> ➟ <#1015940451410378832>\n') // TODO
+    
+    .setImage('https://i.imgur.com/t6G2Us8.png');
 
 		dmChannel.send({
 			content: 'ㅤ    ',

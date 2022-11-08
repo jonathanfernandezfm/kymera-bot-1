@@ -40,26 +40,26 @@ module.exports = {
 			.setThumbnail('https://i.imgur.com/JlsqOgU.png')
 			.setDescription('<@&1020660198186160138> : Es el responsable de la organización de los grupos relacionados con las actividades PvP/PvE dentro del gremio, dar contenido y revisar que todo esté en orden para el desarrollo de estas.')
     
-		const embed_rangosmiembro = new EmbedBuilder()
+		const embed_rangosuser = new EmbedBuilder()
 			.setColor("#3498db") 
       .setThumbnail('https://i.imgur.com/lNoJeTQ.png') 
 			.setDescription(
-				'<@&1016043872469647375> : \n\nLos miembros más antiguos y fieles de la guild. Su aportación en las peleas es la más significativa.')
+				'<@&1016043872469647375> : Los miembros más antiguos y fieles de la guild. Su aportación en las peleas es la más significativa. Podrán formar parte del equipo de administración si se requiere en momentos determinados.')
     
     const embed_rangosuser1 = new EmbedBuilder()
 			.setColor("#3498db")
       .setThumbnail('https://i.imgur.com/lNoJeTQ.png') 
-			.setDescription('<@&1016043768916488222> : \n\nComo su propio nombre indica, los veteranos que ya llevan cierto tiempo en la guild y tienen la IP y los conocimientos de posicionamiento y pelea suficientes para actividades que requieren mayor dificultad')
+			.setDescription('<@&1016043768916488222> : Como su propio nombre indica, los veteranos que ya llevan cierto tiempo en la guild y tienen la IP y los conocimientos de posicionamiento y pelea suficientes para actividades que requieren mayor dificultad')
 
 		const embed_rangosuser2 = new EmbedBuilder()
 			.setColor("#578b42")
       .setThumbnail('https://i.imgur.com/tRXSKNx.png')
-			.setDescription('<@&1016043570773381190> : \n\Miembros que han pasado satisfactoriamente el periodo de prueba y han gozan de los permisos de miembro tanto en discord como en Albion.')
+			.setDescription('<@&1016043570773381190> : Miembros que han pasado satisfactoriamente el periodo de prueba y han gozan de los permisos de miembro tanto en discord como en Albion.')
 
     const embed_rangosuser3 = new EmbedBuilder()
 			.setColor("#4cff05")
       .setThumbnail('https://i.imgur.com/Z5ON3Gi.png')
-			.setDescription('<@&1016043481183031397> : \n\Miembros que recién entran al gremio  y que tendrán un periodo de prueba de (2) semanas en el cual tendrán que conseguir cierta fama (PvP/PvP) para obtener los permisos de KYMERA miembro.')
+			.setDescription('<@&1016043481183031397> : Miembros que recién entran al gremio  y que tendrán un periodo de prueba de (2) semanas en el cual tendrán que conseguir cierta fama (PvP/PvP) para obtener los permisos de KYMERA miembro.')
 
 		const embed_vacantes = new EmbedBuilder()
 			.setTitle(
