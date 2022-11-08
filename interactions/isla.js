@@ -58,6 +58,7 @@ module.exports = {
 					});
 				}
 
+				// eslint-disable-next-line no-case-declarations
 				const row = new ActionRowBuilder().addComponents(
 					new ButtonBuilder()
 						.setCustomId('aceptar_reclamo_cofre')
@@ -69,6 +70,7 @@ module.exports = {
 						.setStyle(ButtonStyle.Danger)
 				);
 
+				// eslint-disable-next-line no-case-declarations
 				const channel = await interaction.guild.channels.fetch(canal_reclamos);
 				await channel.send({
 					content: `> Reclamo de cofre de <@${interaction.user.id}>`,

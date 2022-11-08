@@ -38,9 +38,7 @@ module.exports = {
 			.setColor(0x0099ff)
 			.setAuthor({ name: '🧙‍♂️ Builds para magos' })
 			.setDescription('Haz click en Abrir original')
-			.setImage(
-				'https://media.discordapp.net/attachments/1009895511450452099/1009895543977283594/unknown.png'
-			)
+			.setImage('https://media.discordapp.net/attachments/1009895511450452099/1009895543977283594/unknown.png')
 			.setFooter({ text: '📅 Última actualización 17/09/2022' });
 
 		switch (interaction.values[0]) {

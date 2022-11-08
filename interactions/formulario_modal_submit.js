@@ -36,7 +36,7 @@ module.exports = {
 			playerDataBody.LifetimeStatistics.Gathering.All.Total;
 
 		const embed = new EmbedBuilder()
-			.setColor("#ffca38")
+			.setColor('#ffca38')
 			.setTitle('📝 Nuevo formulario de ingreso')
 			.setDescription(`👤 Usuario en Discord: <@${interaction.user.id}>\nㅤ\n`)
 			.setThumbnail(interaction.user.displayAvatarURL())
@@ -57,6 +57,9 @@ module.exports = {
 			components: [row],
 		});
 
-		return interaction.reply({ content: '`✅` Tu formulario ha sido enviado correctamente a nuestro equipo de reclutadores', ephemeral: true });
+		return interaction.reply({
+			content: '`✅` Tu formulario ha sido enviado correctamente a nuestro equipo de reclutadores',
+			ephemeral: true,
+		});
 	},
 };

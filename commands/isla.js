@@ -23,9 +23,9 @@ module.exports = {
 				}
 			)
 		);
-  
+
 		const embed = new EmbedBuilder()
-      
+
 			.setTitle('ㅤㅤㅤ               ❮❮    ISLA BRIDGEWATCH    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
 			.setColor(3697893)
 			.setDescription(

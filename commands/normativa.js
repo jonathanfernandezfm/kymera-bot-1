@@ -23,11 +23,11 @@ module.exports = {
 				}
 			)
 		);
-  
+
 		const embed = new EmbedBuilder()
-      
+
 			.setTitle('ㅤㅤㅤ           ❮❮    NORMATIVA KYMERA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
-			.setColor("386CE5") //
+			.setColor('386CE5') //
 			.setDescription(
 				'\n\n> `📔` Todos los miembros del gremio tienen el deber de respetar las normas generales en el desarrollo de las actividades del gremio, de lo contrario, el equipo de administración tomará medidas dependiendo del grado de desobediencia\n'
 			)
