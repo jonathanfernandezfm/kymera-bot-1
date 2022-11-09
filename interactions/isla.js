@@ -35,7 +35,7 @@ module.exports = {
 
 		const embed_reclamo = new EmbedBuilder()
 			.setColor(3697893)
-			.setTitle('`<:icono_cofre:1022572341160587354> Nuevo reclamo de cofre`')
+			.setTitle('<:icono_cofre:1022572341160587354> Nuevo reclamo de cofre')
 			.setDescription(`👤 Usuario en Discord: <@${interaction.user.id}>\n`)
 			.setThumbnail(interaction.user.displayAvatarURL());
 
