@@ -55,7 +55,7 @@ module.exports = {
 
 		const embed_rangosuser = new EmbedBuilder()
 			.setColor('#3498db')
-			.setThumbnail('https://i.imgur.com/lNoJeTQ.png')
+			.setThumbnail('https://i.imgur.com/99Vh3eP.png')
 			.setDescription(
 				'<@&1016043872469647375> : Los miembros más antiguos y fieles de la guild. Su aportación en las peleas es la más significativa. Podrán formar parte del equipo de administración si se requiere en momentos determinados.'
 			);

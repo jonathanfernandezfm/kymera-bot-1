@@ -20,19 +20,8 @@ module.exports = {
 
 		const embed_roaming1 = new EmbedBuilder()
 			.setColor(0x0099ff)
-			.setAuthor({ name: '☠️ Builds para roaming TANKE & MELEE' })
-			.setDescription('Haz click en Abrir original')
-			.setImage('https://cdn.discordapp.com/attachments/1015933855359836181/1021819456223199292/tanks_mele.png')
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
-
-		const embed_roaming2 = new EmbedBuilder()
-			.setColor(0x0099ff)
-			.setAuthor({ name: '☠️ Builds para roaming HEAL & SUPPORT & RANGE' })
-			.setDescription('Haz click en Abrir original')
-			.setImage(
-				'https://cdn.discordapp.com/attachments/1015933855359836181/1021819476968222810/supports_healers.png'
-			)
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
+			.setAuthor({ name: '☠️ Builds para roaming' })
+			.setDescription('En construcción');
 
 		const embed_magos = new EmbedBuilder()
 			.setColor(0x0099ff)
@@ -58,7 +47,7 @@ module.exports = {
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_roaming1, embed_roaming2],
+					embeds: [embed_roaming1],
 				});
 			case 'magos':
 				return await interaction.reply({

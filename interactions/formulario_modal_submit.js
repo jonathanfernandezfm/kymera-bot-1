@@ -52,7 +52,7 @@ module.exports = {
 		const channel = await interaction.guild.channels.fetch(canal_formulario);
 
 		await channel.send({
-			content: `> <@&1031119833024167972>, nuevo formulario de <@${interaction.user.id}>`,
+			content: `> <@&1016042908257894460>, nuevo formulario de <@${interaction.user.id}>`,
 			embeds: [embed],
 			components: [row],
 		});

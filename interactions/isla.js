@@ -27,13 +27,15 @@ module.exports = {
 
 		const embed_reclamado = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                            ❮❮    COFRE RECLAMADO    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                ❮❮    COFRE RECLAMADO    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
-			.setColor('386CE5');
+      .setDescription(`Un integrante de la administración atenderá tu petición lo má rápido posible.`)
+      
+			.setColor("#59FF59");
 
 		const embed_reclamo = new EmbedBuilder()
 			.setColor(3697893)
-			.setTitle('`📦 Nuevo reclamo de cofre 📦`')
+			.setTitle('`<:icono_cofre:1022572341160587354> Nuevo reclamo de cofre`')
 			.setDescription(`👤 Usuario en Discord: <@${interaction.user.id}>\n`)
 			.setThumbnail(interaction.user.displayAvatarURL());
 
