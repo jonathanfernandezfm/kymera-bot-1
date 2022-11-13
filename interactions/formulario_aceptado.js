@@ -14,7 +14,7 @@ module.exports = {
 		const previous_embed = interaction.message.embeds[0];
 		const embed_formulario = EmbedBuilder.from(previous_embed)
 			.setColor('#64FF64')
-			.setDescription(`✅ Aceptado por el <@&1031119833024167972> - <@${interaction.user.id}> \nㅤ⠀⠀⠀⠀⠀⠀⠀\n`);
+			.setDescription(`✅ Aceptado por el <@&1016042908257894460> - <@${interaction.user.id}> \nㅤ⠀⠀⠀⠀⠀⠀⠀\n`);
 
 		await interaction.message.edit({
 			embeds: [embed_formulario],

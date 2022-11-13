@@ -139,7 +139,7 @@ module.exports = {
 			.setTitle('━━━━━━━━━━━━━━━━━━━ㅤㅤ         ❮❮    RECLAMAR ROL   ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━')
 			.setColor('#FF7A4D') //
 			.setDescription(
-				'➡️ Mandar imagen por privado a:\n\n <@235918049990017025>\n\n<@599553288760852505>\n\n<@165928129628471297>\n\n El formato de la imagen tiene que ser como la que se muestra debajo:\n'
+				'➡️ Mandar imagen por privado a:\n\n <@235918049990017025>\n\n<@599553288760852505>\n\n<@515550774097477642>\n\n El formato de la imagen tiene que ser como la que se muestra debajo:\n'
 			)
 			.setImage('https://i.imgur.com/Gx4EasM.png');
 
