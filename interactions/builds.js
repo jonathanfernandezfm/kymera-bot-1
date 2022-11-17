@@ -28,6 +28,14 @@ module.exports = {
 			.setAuthor({ name: '🧙‍♂️ Builds para magos' })
 			.setDescription('Haz click en Abrir original')
 			.setImage('https://media.discordapp.net/attachments/1009895511450452099/1009895543977283594/unknown.png')
+      			
+			.setFooter({ text: '📅 Última actualización 17/09/2022' });
+
+    const embed_avalonianas = new EmbedBuilder()
+			.setColor(0x0099ff)
+			.setAuthor({ name: '🧙‍♂️ Builds para magos' })
+			.setDescription('Haz click en Abrir original')
+			.setImage('https://media.discordapp.net/attachments/1009895511450452099/1009895543977283594/unknown.png')
 			.setFooter({ text: '📅 Última actualización 17/09/2022' });
 
 		switch (interaction.values[0]) {
@@ -54,6 +62,12 @@ module.exports = {
 					content: '',
 					ephemeral: true,
 					embeds: [embed_magos],
+				});
+        case 'avalonianas':
+				return await interaction.reply({
+					content: '',
+					ephemeral: true,
+					embeds: [embed_avalonianas],
 				});
 			default:
 				return;

@@ -8,33 +8,33 @@ module.exports = {
 			new SelectMenuBuilder().setCustomId('builds').setPlaceholder('Selecciona una opción').addOptions(
 				{
 					label: 'Caerleon',
-					description: 'Captura de puestos avanzados rivales',
+          description: 'Composición para Caerleon outpost',
 					value: 'caerleon',
 					emoji: '🐺',
 				},
 				{
-					label: 'ZvZ',
-					description: 'Batallas a gran escala',
+					label: 'Builds ZvZ',
+          description: 'Composición para peleas a gran escala',
 					value: 'zvz',
 					emoji: '⚔️',
 				},
 				{
 					label: 'Roaming',
-					description: 'Objetivos en mundo abierto',
+          description: 'Composición para objetivos de mundo abierto',
 					value: 'roaming',
-					emoji: '🐎',
+					emoji: '1042750383954604032',
 				},
 				{
-					label: 'Magos',
-					description: 'Composición para magos embotelladores',
+					label: 'Magos embotelladores',
+          description: 'Composición para puestos de magos embotelladores',
 					value: 'magos',
-					emoji: '🧙‍♂️',
+					emoji: '1042738321643814932',
 				},
         {
 					label: 'Avalonianas',
-          description: 'Composición para mazmorras avalonianas',
+           description: 'Composición para mazmorras avalonianas',
 					value: 'avalonianas',
-					emoji: '1042400499426676736',
+					emoji: '1042749185604210748',
 				}
 			)
 		);
