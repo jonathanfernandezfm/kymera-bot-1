@@ -26,9 +26,15 @@ module.exports = {
 				},
 				{
 					label: 'Magos',
-					description: 'Captura de magos embotellados',
+					description: 'Composición para magos embotelladores',
 					value: 'magos',
 					emoji: '🧙‍♂️',
+				},
+        {
+					label: 'Avalonianas',
+          description: 'Composición para mazmorras avalonianas',
+					value: 'avalonianas',
+					emoji: '1042400499426676736',
 				}
 			)
 		);
