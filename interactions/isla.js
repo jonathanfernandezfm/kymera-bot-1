@@ -75,7 +75,7 @@ module.exports = {
 				// eslint-disable-next-line no-case-declarations
 				const channel = await interaction.guild.channels.fetch(canal_reclamos);
 				await channel.send({
-					content: `\n> Nuevo reclamo de cofre <@&1015942996455325719>\n`,
+					content: `\n> Nuevo reclamo de cofre de <@${interaction.user.id}>\n`,
 					embeds: [embed_reclamo],
 					components: [row],
 				});

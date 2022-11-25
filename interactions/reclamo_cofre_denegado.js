@@ -7,7 +7,7 @@ module.exports = {
 		const previous_embed = interaction.message.embeds[0];
 		const embed_formulario = EmbedBuilder.from(previous_embed)
 			.setColor('#fc0303')
-			.setTitle('<:icono_cofre:1022572341160587354>ㅤReclamo de cofre denegadoㅤ❌');
+			.setTitle('<:icono_cofre:1022572341160587354>Reclamo de cofre denegadoㅤ❌');
 
 		await interaction.message.edit({
 			embeds: [embed_formulario],
