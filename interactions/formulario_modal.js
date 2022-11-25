@@ -7,7 +7,7 @@ module.exports = {
 	execute: async (interaction) => {
 		if (!canal_formulario) {
 			return await interaction.reply({
-				content: '🔴 ERROR: El canal para mandar formularios no esta configurado, contacta con BkNcs2 o Poak',
+				content: '🔴 ERROR: El canal para mandar formularios no esta configurado, contacta con BkNcs',
 				ephemeral: true,
 			});
 		}
@@ -21,7 +21,7 @@ module.exports = {
 
 		const horarioInput = new TextInputBuilder()
 			.setCustomId('pregunta_horario')
-			.setLabel('¿Resides en España?')
+			.setLabel('¿Tienes horario europeo?')
 			.setStyle(TextInputStyle.Short);
 
 		const contenidoInput = new TextInputBuilder()
