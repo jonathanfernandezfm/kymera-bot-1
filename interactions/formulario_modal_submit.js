@@ -42,7 +42,7 @@ module.exports = {
 			.setThumbnail(interaction.user.displayAvatarURL())
 			.addFields(
 				{ name: '1) Nombre de usuario en Albion:', value: `> ${nombre}` },
-				{ name: '2) ¿Resides en España?:', value: `> ${horario}` },
+				{ name: '2) ¿Tienes horario europeo?:', value: `> ${horario}` },
 				{ name: '3) ¿Qué contenido quieres hacer en Kymera?:', value: `> ${contenido}` },
 				{ name: '4) ¿Cuál es tu anterior gremio?:', value: `> ${guild}` },
 				{ name: '5) Rol principal, secundario y armas usadas/spec:', value: `> ${rol}` },
