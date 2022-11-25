@@ -55,7 +55,7 @@ module.exports = {
 			case 'reclamar':
 				if (!canal_reclamos) {
 					return await interaction.reply({
-						content: '🔴 ERROR: El canal de reclamos no esta configurado, contacta con BkNcs2 o Poak',
+						content: '🔴 ERROR: El canal de reclamos no esta configurado, contacta con BkNcs',
 						ephemeral: true,
 					});
 				}
@@ -64,7 +64,7 @@ module.exports = {
 				const row = new ActionRowBuilder().addComponents(
 					new ButtonBuilder()
 						.setCustomId('aceptar_reclamo_cofre')
-						.setLabel('Completado')
+						.setLabel('Aceptar')
 						.setStyle(ButtonStyle.Success),
 					new ButtonBuilder()
 						.setCustomId('denegar_reclamo_cofre')
@@ -75,7 +75,7 @@ module.exports = {
 				// eslint-disable-next-line no-case-declarations
 				const channel = await interaction.guild.channels.fetch(canal_reclamos);
 				await channel.send({
-					content: `> Reclamo de cofre de <@${interaction.user.id}>`,
+					content: `\n> Nuevo reclamo de cofre <@&1015942996455325719>\n`,
 					embeds: [embed_reclamo],
 					components: [row],
 				});
