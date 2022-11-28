@@ -14,7 +14,7 @@ module.exports = {
 		const embed = new EmbedBuilder()
 			.setColor('#FFCA38')
 			.setDescription(
-				'\n\n `📝` Para acceder al formulario pulsa en el botón de abajo. El equipo de reclutadores leerá tu solicitud y te atenderá cuanto antes.\n\n`⚠️` Es obligatorio que tu nombre de Albion Online sea el que uses actualmente y que esté correctamente escrito, ya que nos ayudará a realizar un sondeo automático de tu fama total y perfil del juego sin requerir una imagen.\n'
+				'\n\n `📝` Para acceder al formulario pulsa en el botón de abajo. El equipo de reclutadores leerá tu solicitud y te atenderá cuanto antes.\n\n`⚠️` Es obligatorio que tu nombre de Albion Online sea el mismo que utilices en nuestro discord y que esté correctamente escrito.\n'
 			);
 
 		await msg.channel.send({

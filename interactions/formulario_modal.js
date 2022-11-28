@@ -19,15 +19,19 @@ module.exports = {
 			.setLabel('Nombre de tu personaje en Albion')
 			.setStyle(TextInputStyle.Short);
 
+    const residenciaInput = new TextInputBuilder()
+			.setCustomId('pregunta_residencia')
+			.setLabel('¿Resides en europa?')
+			.setStyle(TextInputStyle.Short);
+    
 		const horarioInput = new TextInputBuilder()
 			.setCustomId('pregunta_horario')
-			.setLabel('¿Tienes horario europeo?')
+			.setLabel('¿Resides en Europa? ¿Tienes horario europeo?')
 			.setStyle(TextInputStyle.Short);
 
 		const contenidoInput = new TextInputBuilder()
 			.setCustomId('pregunta_contenido')
 			.setLabel('¿Qué contenido quieres hacer en Kymera?')
-			.setPlaceholder('PvP, Roaming, Caerleon...')
 			.setStyle(TextInputStyle.Short);
 
 		const guildInput = new TextInputBuilder()

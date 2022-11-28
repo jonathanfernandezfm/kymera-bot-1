@@ -7,7 +7,7 @@ module.exports = {
 	execute: async (interaction) => {
 		if (!rol_formulario) {
 			return await interaction.reply({
-				content: '🔴 ERROR: El rol para usuarios aceptados no esta configurado, contacta con BkNcs2 o Poak',
+				content: '🔴 ERROR: El rol para usuarios aceptados no esta configurado, contacta con BkNcs',
 				ephemeral: true,
 			});
 		}

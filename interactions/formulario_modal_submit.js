@@ -7,7 +7,8 @@ module.exports = {
 	description: 'Formulario modal submit',
 	execute: async (interaction) => {
 		const nombre = interaction.fields.getTextInputValue('pregunta_nombre');
-		const horario = interaction.fields.getTextInputValue('pregunta_horario');
+		const horario =  
+interaction.fields.getTextInputValue('pregunta_horario');
 		const contenido = interaction.fields.getTextInputValue('pregunta_contenido');
 		const guild = interaction.fields.getTextInputValue('pregunta_guild');
 		const rol = interaction.fields.getTextInputValue('pregunta_rol');
@@ -42,7 +43,7 @@ module.exports = {
 			.setThumbnail(interaction.user.displayAvatarURL())
 			.addFields(
 				{ name: '1) Nombre de usuario en Albion:', value: `> ${nombre}` },
-				{ name: '2) ¿Tienes horario europeo?:', value: `> ${horario}` },
+				{ name: '2) ¿Resided en Europa? ¿Tienes horario europeo?:', value: `> ${horario}` },
 				{ name: '3) ¿Qué contenido quieres hacer en Kymera?:', value: `> ${contenido}` },
 				{ name: '4) ¿Cuál es tu anterior gremio?:', value: `> ${guild}` },
 				{ name: '5) Rol principal, secundario y armas usadas/spec:', value: `> ${rol}` },
