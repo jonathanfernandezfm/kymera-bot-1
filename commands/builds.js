@@ -10,13 +10,13 @@ module.exports = {
 					label: 'Caerleon',
           description: 'Composición para Caerleon outpost',
 					value: 'caerleon',
-					emoji: '🐺',
+					emoji: '1047148562934407241',
 				},
 				{
 					label: 'Builds ZvZ',
           description: 'Composición para peleas a gran escala',
 					value: 'zvz',
-					emoji: '⚔️',
+					emoji: '1047150267893817415',
 				},
 				{
 					label: 'Roaming',

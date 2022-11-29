@@ -20,7 +20,7 @@ module.exports = {
 
 		const embed_roaming1 = new EmbedBuilder()
 			.setColor(0x0099ff)
-			.setAuthor({ name: '☠️ Builds para roaming' })
+			.setAuthor({ name: '☠️ Builds para Roaming' })
 			.setDescription('En construcción');
 
 		const embed_magos = new EmbedBuilder()

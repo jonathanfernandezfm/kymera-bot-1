@@ -33,7 +33,8 @@ module.exports = {
 				'> **Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Para acceder a la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
 			)
 			.setImage('https://i.imgur.com/uxktgRm.png');
-
+    
+    
 		switch (interaction.values[0]) {
 			case 'objectives':
 				return await interaction.reply({
