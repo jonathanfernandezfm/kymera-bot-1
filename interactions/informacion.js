@@ -4,38 +4,69 @@ module.exports = {
 	name: 'informacion',
 	description: 'Informacion interaction',
 	execute: async (interaction) => {
+    
+    const embed_terminos = new EmbedBuilder()
+			.setTitle(
+				'🔠  **𝖠𝖢𝖱𝖮́𝖭𝖨𝖬𝖮𝖲 𝖸 𝖲𝖨𝖦𝖫𝖠𝖲 𝖣𝖤 𝖠𝖫𝖡𝖨𝖮𝖭**'
+			)
+			.setColor("#057DD2")
+			.setDescription(
+				'Esta es la lista de términos actualizada de Albion Online y que utilizamos con frecuencia en nuestro contenido y que te servirá para familiarizarte con el juego.'
+			)
+
+      .addFields(
+				{
+					name: 'ㅤ',
+					value: '`AoE: Area of effect` \n➥ habilidades que pueden afectar a varios enemigos/aliados en un área determinada.\n\n `Backear`\n➥ volver o retroceder a una posición inicial o anterior.\n\n `Gankear`\n➥Asaltar de forma inesperada a otros jugadores con el fin de robarles el equipo \n\n `Clap` \n➥ gran concentración de daño en un área, va de la mano con el término AoE. \n\n `Clamp`\n➥ agruparse, juntarse, por lo general de manera desorganizada, rompiendo una formación de batalla. \n\n `Cap`\n➥ capturar, utilizado en batallas de arena/GvG para conquistar los monolitos (Piedras). \n\n `Chasear`\n➥ perseguir, acechar a alguien. \n\n `Push`\n➥ empujar, seguir hacia adelante \n\n `Scrim`\n➥ batallas de entrenamiento definidas con el combate personalizado.',
+					inline: true,
+				},
+				{
+					name: 'ㅤ',
+					value: '`Blob` \n➥ círculo en el mapa que representa X cantidad de jugadores. \n**EJ:** Blob T1 (11 Pjs), Blob T2 (21 Pjs) \n\n `Choke`\n➥ espacio reducido que se puede aprovechar para ganar ventaja en peleas. \n\n `Engage`\n➥ iniciar un ataque contra enemigos. \n\n `Counter engage`\n➥ iniciar el ataque seguidamente después de que el equipo enemigo haya efectuado el suyo. \n\n `Divear`\n➥ adentrarse en mazmorras con el fin de emboscar a una party (grupo). \n\n `Flankear` \n➥ posicionamiento por un costado o punto ciego de un punto inicial de combate. \n\n `Zonear`\n➥ pasar de mapa, se marca por los cuadrantes del mismo. \n\n `Ping`\n➥ señal amarilla marcada por un jugador en el minimapa.\n\n `Cuadrantes`\n➥ cuarta parte de la zona, tomando de referencia los rumbos (Norte, sur, este y oeste).',
+					inline: true,
+				}
+    )
+
+    
 		const embed_objectives = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    OBJETIVOS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'🎯  **𝖮𝖡𝖩𝖤𝖳𝖨𝖵𝖮𝖲 𝖣𝖤 𝖫𝖠 𝖲𝖤𝖠𝖲𝖮𝖭 𝟣𝟪**'
 			)
-			.setColor('#FFA91E')
+			.setColor("#057DD2")
 			.setDescription(
-				'`🎯` **Objetivos de la season 17**\n\n> 1️⃣⠀Realizar actividades con intención de  un mínimo de IP: 1200 (Roaming, caminos, ganking...)\n\n> 2️⃣⠀Llegar a 25k de puntos de temporada mínimo, con intención de llegar a 40k para subir de calidad.\n\n> 3️⃣⠀Contenido diario para subir armas principales, grupos de 20v20, 5v5, caminos avalonianos...  \n\n> 4️⃣⠀Ser más activos en zona negra para subir en el ranking y mantener el HO: Cofres, orbes, arañas...\n'
+				'ㅤ\n> 1️⃣⠀**Realizar actividades con un mínimo de IP** \n```1200 para actividades de roaming, caminos, caerleon...```   \n> 2️⃣⠀**Llegar a rango plata como mínimo** \n```Compromiso para obtener 25K de puntos de temporada y con intención de llegar a 40K para subir de calidad``` \n> 3️⃣⠀**Contenido diario de fama para subir armas principales**\n```Grupos para estáticas,  HCE...``` \n> 4️⃣ **Formar grupos consistentes para contenido PVP**\n```20v20, 5v5, caminos avalonianos, crystals...```\n> 5️⃣⠀**Ser más activos en zona negra**\n```Cofres, orbes, arañas...```\n '
 			)
-			.setImage('https://i.imgur.com/2RuIEnW.png');
+			.setImage('https://i.imgur.com/iAa2xlv.png');
+
 
 		const embed_caerleon = new EmbedBuilder()
-			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮    FACCIÓN CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+      .setTitle(
+				'🐺 **𝖥𝖠𝖢𝖢𝖨𝖮́𝖭 𝖣𝖤 𝖢𝖠𝖤𝖱𝖫𝖤𝖮𝖭**'
 			)
-			.setColor('#EC0000')
+			.setColor("#057DD2")
 			.setDescription(
-				'`🐺` **Nos enfocamos en la facción de Caerleon**\n\n> Es una actividad que realizamos frecuentemente para la obtención de puntos de facción y así mismo hacer economía y aprender en cuanto a posicionamiento en peleas a baja escala. No es obligatorio asistir, pero sí aconsejable. \n\n> Si mueres, el <#1015940190583402506> hará que se pueda reequipar si el jugador tiene el mínimo requerido.\n\n> Para poder distinguir a los jugadores que cumplen los requisitos de los que no, se hará por el rol  de **"Caerleon"** con su respectivo icono.\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`⚔️`  **El mínimo recomendado y para optar a regear:**\n\n``` Mínimo de IP con la build equipada ➟ +1200\n Ramas de arma principal al 75 de spec ➟ 2```'
+				'\n\n `¿En qué consiste Caerleon?` <:lobo:1050046921244409876>\n➥ Es una actividad que realizamos frecuentemente para la obtención de **puntos de facción** y así mismo hacer economía y aprender en cuanto a **posicionamiento** en peleas a baja escala. \n\n***No es obligatorio asistir, pero sí aconsejable.*** \n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`¿Cómo puedo asistir?` <:evento:1050029567668142110>\n➥ Para poder participar en los grupos de Caerleon deberás equiparte con las **builds correspondientes** y tener un **mínimo de IP** (1200) con el equipo equivalente a <:t6:1050039287900553267>.\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`¿Qué build debo llevar?` <:arma:1050032651559522385>\n➥ Actualmente la composición que llevamos la forman **armas de daño en área** (AOE) e intentamos jugar al **clap**. Accede al canal <#1015933830760247429> para más información.\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`¿Qué ocurre si muero?` <:dead:1050046134233616435>\n➥ En Caerleon hay reequip de las personas que mueran. **Los que hayan obtenido el rol** de <@1020635840327729196> en el discord **pueden optar a reequip**, de lo contrario, tendrás que **solicitar tu rol en el canal** <#1015940451410378832>.\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`¿Qué es el reequip?` <:reequip:1050025742718746624>\n➥ Es un **sistema de reequipamiento** por el cual, si mueres, nuestro <#1015940190583402506> pagará tu equipo (250K) **si tienes el mínimo requerido** (2 armas o más al 75 de spec de diferentes ramas) y el **rol** de <@1020635840327729196> en discord.'
 			)
-			.setImage('https://i.imgur.com/xWRiZLC.png');
+			.setImage('https://i.imgur.com/few3qtu.png');
 
 		const embed_hideout = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    HIDEOUT    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'<:ho:1049649692377612348> **𝖧𝖨𝖣𝖤𝖮𝖴𝖳**'
 			)
-			.setColor(8767009)
+			.setColor("#057DD2")
 			.setDescription(
-				'> **Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Para acceder a la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
+				'**Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Ver la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
 			)
-			.setImage('https://i.imgur.com/uxktgRm.png');
+			.setImage('https://i.imgur.com/XQBBRBQ.png');
     
     
 		switch (interaction.values[0]) {
+        case 'terminos':
+				return await interaction.reply({
+					content: '',
+					ephemeral: true,
+					embeds: [embed_terminos],
+				});
 			case 'objectives':
 				return await interaction.reply({
 					content: '',

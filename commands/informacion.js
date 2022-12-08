@@ -6,6 +6,11 @@ module.exports = {
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
 			new SelectMenuBuilder().setCustomId('informacion').setPlaceholder('Seleccionar una opción').addOptions(
+        {
+					label: 'Acrónimos y siglas de Albion',
+					value: 'terminos',
+					emoji: '🔠',
+				},
 				{
 					label: 'Objetivos de la season',
 					value: 'objectives',
@@ -17,24 +22,24 @@ module.exports = {
 					emoji: '🐺',
 				},
 				{
-					label: 'Hideout',
+					label: 'Localización del hideout',
 					value: 'hideout',
-					emoji: '1037691104960725013',
+					emoji: '1049649692377612348',
 				}
 			)
 		);
 
 		const embed = new EmbedBuilder()
 
-			.setTitle('ㅤㅤㅤ         ❮❮    BIENVENIDO A KYMERA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
-			.setColor('386CE5')
+			.setColor("#057DD2")
+      
 			.setDescription(
-				'\n\n> `🌐` Aquí encontrarás información esencial sobre el contenido que realizamos, objetivos de season, zona por la que nos movemos, hideout y puntos importantes a tener en cuenta.\n\n> `🏰` Actualmente nuestro contenido se enfoca en el portal de __**Bridgewatch**__. Podrás acceder a la isla privada del gremio mediante el viajante en la pestaña **"Kymera Bridgewatch"**.\n\n> `⚠️` Para ver los diferentes apartados que hay disponible actualmente, haz click en el menú desplegable de abajo.\n'
+				'\n\n<:Portal:1049393054412439582> ‎ Actualmente nuestro contenido se enfoca en el portal de Bridgewatch. Podrás acceder a la isla privada del gremio mediante el **planificador de viajes** y seleccionando **"Kymera Bridgewatch"**.\n\n<:click:1049445789094662205> ‎Para ver los diferentes apartados que hay disponible actualmente, **haz click en el menú desplegable** de abajo.\n'
 			)
-			.setImage('https://i.imgur.com/EkOZeZT.png');
+			.setImage('https://i.imgur.com/WMOBXgc.png');
 
 		await msg.channel.send({
-			content: 'ㅤ    ',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>‎ ‎ **AQUÍ ENCONTRARÁS INFORMACIÓN ESENCIAL SOBRE:**\n\n➠ ***Tipo de contenido*** que realizamos                      ➠ ***Zona actual*** por la que nos movemos\n➠ ***Objetivos*** de la siguiente season                          ➠ ***Hideout*** y su localización\n➠ ***Puntos importantes*** a tener en cuenta.⠀          ➠ ***Terminología*** que utilizamos\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
 			embeds: [embed],
 			components: [row],
 		});
