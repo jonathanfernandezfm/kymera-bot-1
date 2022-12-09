@@ -55,7 +55,7 @@ module.exports = {
 			)
 			.setColor("#057DD2")
 			.setDescription(
-				'**Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n>[Ver la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
+				'**Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Ver la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
 			)
 			.setImage('https://i.imgur.com/cMp8DnN.png');
     
