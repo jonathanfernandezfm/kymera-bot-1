@@ -17,6 +17,7 @@ module.exports = {
 		const nombreInput = new TextInputBuilder()
 			.setCustomId('pregunta_nombre')
 			.setLabel('Nombre de tu personaje en Albion')
+      .setPlaceholder('Es importante que coincida con tu usuario de discord')
 			.setStyle(TextInputStyle.Short);
 
     const residenciaInput = new TextInputBuilder()
