@@ -34,7 +34,7 @@ module.exports = {
 			.setColor("#057DD2")
       
 			.setDescription(
-				'\n\n<:portal:1050583981608943676> ‎ Actualmente nuestro contenido se enfoca en el portal de Bridgewatch. Podrás acceder a la isla privada del gremio mediante el **planificador de viajes** y seleccionando **"Kymera Bridgewatch"**.\n\n<:raton:1050588057696469072> ‎Para ver los diferentes apartados que hay disponible actualmente, **haz click en el menú desplegable** de abajo.\n'
+				'\n\n<:portal:1050583981608943676> ‎ Actualmente nuestro contenido se enfoca en el portal de Martlock. Podrás acceder a la isla privada del gremio mediante el **planificador de viajes** y seleccionando **"Isla de Kymera Martlock"**.\n\n<:raton:1050588057696469072> ‎Para ver los diferentes apartados que hay disponible actualmente, **haz click en el menú desplegable** de abajo.\n'
 			)
 			.setImage('https://i.imgur.com/WMOBXgc.png');
 
