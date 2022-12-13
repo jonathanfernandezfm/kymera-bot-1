@@ -39,7 +39,7 @@ module.exports = {
 			.setImage('https://i.imgur.com/WMOBXgc.png');
 
 		await msg.channel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>‎ ‎ **AQUÍ ENCONTRARÁS INFORMACIÓN ESENCIAL SOBRE:**\n\n➠ ***Tipo de contenido*** que realizamos                      ➠ ***Zona actual*** por la que nos movemos\n➠ ***Objetivos*** de la siguiente season                          ➠ ***Hideout*** y su localización\n➠ ***Puntos importantes*** a tener en cuenta.⠀          ➠ ***Terminología*** que utilizamos\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀<:ayuda:1045652052400939078>  **INFORMACIÓN GENERAL SOBRE KYMERA:**\n➥ actividades que realizamos, objetivos, hideout, terminología...\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
 			embeds: [embed],
 			components: [row],
 		});
