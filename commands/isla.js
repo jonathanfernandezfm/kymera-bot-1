@@ -33,7 +33,7 @@ module.exports = {
 			.setImage('https://i.imgur.com/firgO1z.png');
 
 		await msg.channel.send({
-			content: '<:martlock:1051934577003855942>  **INFORMACIÓN IMPORTANTE SOBRE LA ISLA DE MARTLOCK:**\n➥ isla del gremio, cofres personales, sistema de reparto de loot.\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:martlock:1051934577003855942>  **INFORMACIÓN IMPORTANTE SOBRE LA ISLA DE MARTLOCK:**\n➥ isla del gremio, cofres personales, sistema de reparto de loot.\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
 			embeds: [embed],
 			components: [row],
 		});
