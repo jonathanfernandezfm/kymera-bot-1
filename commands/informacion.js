@@ -40,6 +40,7 @@ module.exports = {
 
 		await msg.channel.send({
 			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>  **INFORMACIÓN GENERAL SOBRE KYMERA:**\n➥ actividades que realizamos, objetivos, hideout, terminología...\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
+      
 			embeds: [embed],
 			components: [row],
 		});

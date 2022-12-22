@@ -1,6 +1,5 @@
 const { EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder } = require('discord.js');
 const { canal_formulario } = require('../data/db.json');
-const { request } = require('undici');
 
 module.exports = {
 	name: 'formulario_modal',
@@ -27,7 +26,8 @@ interaction.fields.getTextInputValue('pregunta_horario');
 				ephemeral: true,
 			});
 		}
-		const playerId = playerBody.players[0].Id;
+
+    const playerId = playerBody.players[0].Id;
 		const playerDataResult = await request(`https://gameinfo.albiononline.com/api/gameinfo/players/${playerId}`);
 		const playerDataBody = await playerDataResult.body.json();
 		const totalFame =
@@ -47,7 +47,7 @@ interaction.fields.getTextInputValue('pregunta_horario');
 				{ name: '3) ¿Qué contenido quieres hacer en Kymera?:', value: `> ${contenido}` },
 				{ name: '4) ¿Cuál es tu anterior gremio?:', value: `> ${guild}` },
 				{ name: '5) Rol principal, secundario y armas usadas/spec:', value: `> ${rol}` },
-				{ name: 'Fama estimada PvP + PvE', value: `> ${(totalFame / 10 ** 6).toFixed(2)} M` }
+{ name: 'Fama estimada PvP + PvE', value: `> ${(totalFame / 10 ** 6).toFixed(2)} M` }
 			);
 
 		const channel = await interaction.guild.channels.fetch(canal_formulario);

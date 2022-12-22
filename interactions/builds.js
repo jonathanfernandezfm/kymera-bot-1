@@ -6,37 +6,30 @@ module.exports = {
 	execute: async (interaction) => {
 		const embed_caerleon = new EmbedBuilder()
 			.setColor(0x0099ff)
-			.setAuthor({ name: '🐺 Builds para Caerleon outpost' })
-			.setDescription('Haz click en Abrir original')
-			.setImage('https://i.imgur.com/2rrMlw8.png')
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
+			.setDescription('**[ACCEDER A LA BUILD COMPLETA](https://docs.google.com/spreadsheets/d/124RVREtD3Jftgh4BxyAnF9nuSCfbI9AHl3TFVzWc1eU/edit?usp=sharing)**')
+			.setFooter({ text: '📅 Última actualización 22/12/2022' });
 
-		const embed_zvz = new EmbedBuilder()
+		const embed_gank = new EmbedBuilder()
 			.setColor(0x0099ff)
-			.setAuthor({ name: '⚔️ Builds para ZvZ' })
-			.setDescription('Haz click en Abrir original')
-			.setImage('https://i.imgur.com/JwAF1zV.jpg')
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
+			.setDescription('**[ACCEDER A LA BUILD COMPLETA](https://docs.google.com/spreadsheets/d/124RVREtD3Jftgh4BxyAnF9nuSCfbI9AHl3TFVzWc1eU/edit#gid=87672920)**')
+			.setFooter({ text: '📅 Última actualización 22/09/2022' });
 
 		const embed_roaming1 = new EmbedBuilder()
 			.setColor(0x0099ff)
-			.setAuthor({ name: '☠️ Builds para Roaming' })
-			.setDescription('En construcción');
-
+			.setDescription('**[ACCEDER A LA BUILD COMPLETA](https://docs.google.com/spreadsheets/d/124RVREtD3Jftgh4BxyAnF9nuSCfbI9AHl3TFVzWc1eU/edit#gid=1425643696)**')
+      .setFooter({ text: '📅 Última actualización 22/09/2022' });
+    
 		const embed_magos = new EmbedBuilder()
 			.setColor(0x0099ff)
-			.setAuthor({ name: '🧙‍♂️ Builds para magos' })
-			.setDescription('Haz click en Abrir original')
-			.setImage('https://media.discordapp.net/attachments/1009895511450452099/1009895543977283594/unknown.png')
+			.setDescription('**[ACCEDER A LA BUILD COMPLETA](https://docs.google.com/spreadsheets/d/124RVREtD3Jftgh4BxyAnF9nuSCfbI9AHl3TFVzWc1eU/edit#gid=1502154789)**')
       			
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
+			.setFooter({ text: '📅 Última actualización 22/12/2022' });
 
     const embed_avalonianas = new EmbedBuilder()
 			.setColor(0x0099ff)
-			.setAuthor({ name: '🧙‍♂️ Builds para magos' })
-			.setDescription('Haz click en Abrir original')
-			.setImage('https://media.discordapp.net/attachments/1009895511450452099/1009895543977283594/unknown.png')
-			.setFooter({ text: '📅 Última actualización 17/09/2022' });
+			.setDescription('**[ACCEDER A LA BUILD COMPLETA](https://docs.google.com/spreadsheets/d/124RVREtD3Jftgh4BxyAnF9nuSCfbI9AHl3TFVzWc1eU/edit#gid=474409483)**')
+
+			.setFooter({ text: '📅 Última actualización 22/12/2022' });
 
 		switch (interaction.values[0]) {
 			case 'caerleon':
@@ -45,11 +38,11 @@ module.exports = {
 					ephemeral: true,
 					embeds: [embed_caerleon],
 				});
-			case 'zvz':
+			case 'gank':
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_zvz],
+					embeds: [embed_gank],
 				});
 			case 'roaming':
 				return await interaction.reply({

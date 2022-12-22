@@ -19,11 +19,6 @@ module.exports = {
 			.setLabel('Nombre de tu personaje en Albion')
       .setPlaceholder('Es importante que coincida con tu usuario de discord')
 			.setStyle(TextInputStyle.Short);
-
-    const residenciaInput = new TextInputBuilder()
-			.setCustomId('pregunta_residencia')
-			.setLabel('¿Resides en europa?')
-			.setStyle(TextInputStyle.Short);
     
 		const horarioInput = new TextInputBuilder()
 			.setCustomId('pregunta_horario')
