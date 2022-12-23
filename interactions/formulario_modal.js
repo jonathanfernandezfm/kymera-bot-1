@@ -1,6 +1,7 @@
 const { ModalBuilder, TextInputBuilder, TextInputStyle, ActionRowBuilder } = require('discord.js');
 const { canal_formulario } = require('../data/db.json');
 
+
 module.exports = {
 	name: 'formulario',
 	description: 'Formulario modal',
