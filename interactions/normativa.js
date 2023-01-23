@@ -5,16 +5,14 @@ module.exports = {
 	description: 'Normativa interaction',
 	execute: async (interaction) => {
 		const embed_general = new EmbedBuilder()
-			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                    ❮❮    NORMATIVA GENERAL    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
-			)
-			.setColor('#3769a9')
+			
+			.setColor('#c76e33')
 			.setDescription('`Normas aplicables con carácter general⠀`')
 
 			.addFields(
 				{
 					name: 'ㅤ',
-					value: '> :one:  **Respeto ante todos los miembros** que estén en el gremio.',
+					value: '> :one:  **Respeto ante todos los miembros** que formen parte del gremio, ya tenga rango o carezca de él.',
 					inline: true,
 				},
 				{
@@ -34,7 +32,7 @@ module.exports = {
 				},
 				{
 					name: 'ㅤ',
-					value: '> :five:  **No queremos ego players**, cada integrante de Kymera tiene un nivel diferente. Estamos para aprender de los fallos, nadie es mejor que nadie,',
+					value: '> :five:  **No queremos ego players**, cada integrante de Kymera tiene un nivel diferente. Estamos para aprender de los fallos, nadie es mejor que nadie.',
 					inline: true,
 				},
 				{
@@ -56,11 +54,9 @@ module.exports = {
 			.setImage('https://i.imgur.com/15YdPGw.png');
 
 		const embed_ncaerleon = new EmbedBuilder()
-			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮    NORMATIVA CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
-			)
+			
 			.setColor('#5f2626')
-			.setDescription('`Normas aplicables únicamente a Fama`')
+			.setDescription('`Normas aplicables únicamente a Caerleon`')
 
 			.addFields(
 				{
@@ -97,10 +93,8 @@ module.exports = {
 			.setImage('https://i.imgur.com/MHyJTVe.png');
 
 		const embed_nfama = new EmbedBuilder()
-			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    NORMATIVA FAMA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
-			)
-			.setColor('#c5bd63')
+	
+			.setColor('#3373c7')
 			.setDescription('`Normas aplicables únicamente a Fama`')
 			.addFields(
 				{
@@ -120,7 +114,7 @@ module.exports = {
 				},
 				{
 					name: 'ㅤ',
-					value: '> :four: **No toleramos lloros ni quejas**, solo soluciones.',
+					value: '> :four: **No toleramos lloros ni quejas**, solo soluciones. (Se tomarán medidas si ocurre con frecuencia)',
 					inline: true,
 				},
 				{
@@ -130,6 +124,40 @@ module.exports = {
 				}
 			)
 			.setImage('https://i.imgur.com/wMvrGAv.png');
+
+    const embed_navalonianas = new EmbedBuilder()
+			
+			.setColor('#ffca38')
+			.setDescription('`Normas aplicables únicamente a Avalonianas`')
+
+			.addFields(
+				{
+					name: 'ㅤ',
+					value: '> **Requisitos mínimos:** \n\n - Equipamiento adecuado 6.3(calidad sobresaliente o más) \n\n - Swaps 7 o equivalente mínimo \n\n - Set de pelea T8  (las que se piden) \n\n - Montura rápida/Caballo Gallardo \n\n - Capa Fort Sterling \n\n - 5 comidas de tu rol + 50 venenos ',
+					inline: true,
+				},
+				{
+					name: 'ㅤ',
+					value: '> <:restar:1047921057874575431> **No se tolerará:** \n\n ```- Insultosㅤㅤㅤㅤㅤ- Gritos\n\n- Menospreciosㅤㅤ‎ - Discusiones```',
+					inline: false,
+				},
+				{
+					name: 'ㅤ',
+					value: '> :one:  **Si tu rol es healer**, por muy mal que lo haga la party deberás intentar levantar a todos los posibles debido a que admites esta responsabilidad al inscribirte con ese rol.',
+					inline: true,
+				},
+				{
+					name: 'ㅤ',
+					value: '> :two:  **Se dará un primer aviso** si hay muchas quejas de un jugador. El siguiente aviso será motivo de expulsión permanente de las avalonianas.',
+					inline: true,
+				},
+				{
+					name: 'ㅤ',
+					value: '>  :three:  **Se hará caso en todo momento al caller de la party**.',
+					inline: false,
+				}
+			)
+			.setImage('https://i.imgur.com/Dcj1E1Y.png');
 
 		switch (interaction.values[0]) {
 			case 'general':
@@ -149,6 +177,12 @@ module.exports = {
 					content: '',
 					ephemeral: true,
 					embeds: [embed_nfama],
+				});
+			case 'navalonianas':
+				return await interaction.reply({
+					content: '',
+					ephemeral: true,
+					embeds: [embed_navalonianas],
 				});
 			default:
 				return;

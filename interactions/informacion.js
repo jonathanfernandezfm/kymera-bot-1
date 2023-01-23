@@ -17,12 +17,12 @@ module.exports = {
       .addFields(
 				{
 					name: 'ㅤ',
-					value: '`AoE: Area of effect` \n➥ habilidades que pueden afectar a varios enemigos/aliados en un área determinada.\n\n `Backear`\n➥ volver o retroceder a una posición inicial o anterior.\n\n `Gankear`\n➥ asaltar de forma inesperada a otros jugadores con el fin de robarles el equipo \n\n `Clap` \n➥ gran concentración de daño en un área, va de la mano con el término AoE. \n\n `Clamp`\n➥ agruparse, juntarse, por lo general de manera desorganizada, rompiendo una formación de batalla. \n\n `Cap`\n➥ capturar, utilizado en batallas de arena/GvG para conquistar los monolitos (Piedras). \n\n `Chasear`\n➥ perseguir, acechar a alguien. \n\n `Push`\n➥ empujar, seguir hacia adelante \n\n `Scrim`\n➥ batallas de entrenamiento definidas con el combate personalizado. \n\n `Purgar`\n➥ eliminar buffs del enemigo.',
+					value: '`AoE: Area of effect`⠀[(Imagen)](https://i.imgur.com/ga052rg.png) \n➥ habilidades que pueden afectar a varios enemigos/aliados en un área determinada.\n\n `Backear`\n➥ volver o retroceder a una posición inicial o anterior.\n\n `Gankear`\n➥ asaltar de forma inesperada a otros jugadores con el fin de robarles el equipo \n\n `Clap` \n➥ gran concentración de daño en un área, va de la mano con el término AoE. \n\n `Clamp`\n➥ agruparse, juntarse, por lo general de manera desorganizada, rompiendo una formación de batalla. \n\n `Cap`\n➥ capturar, utilizado en batallas de arena/GvG para conquistar los monolitos (Piedras). \n\n `Chasear`\n➥ perseguir, acechar a alguien. \n\n `Push`\n➥ empujar, seguir hacia adelante \n\n `Scrim`\n➥ batallas de entrenamiento definidas con el combate personalizado. \n\n `Purgar`\n➥ eliminar buffs del enemigo.',
 					inline: true,
 				},
 				{
 					name: 'ㅤ',
-					value: '`Blob` \n➥ círculo en el mapa que representa X cantidad de jugadores. \n**EJ:** Blob T1 (11 Pjs), Blob T2 (21 Pjs) \n\n `Choke`\n➥ espacio reducido que se puede aprovechar para ganar ventaja en peleas. \n\n `Engage`\n➥ iniciar un ataque contra enemigos. \n\n `Counter engage`\n➥ iniciar el ataque seguidamente después de que el equipo enemigo haya efectuado el suyo. \n\n `Divear`\n➥ adentrarse en mazmorras con el fin de emboscar a una party (grupo). \n\n `Flankear` \n➥ posicionamiento por un costado o punto ciego de un punto inicial de combate. \n\n `Zonear`\n➥ pasar de mapa, se marca por los cuadrantes del mismo. \n\n `Ping`\n➥ señal amarilla marcada por un jugador en el minimapa.\n\n `Cuadrantes`\n➥ cuarta parte de la zona, tomando de referencia los rumbos (Norte, sur, este y oeste). \n\n `Holdear`\n➥ aguantar la posición.',
+					value: '`Blob`⠀[(Imagen)](https://i.imgur.com/7whvP3h.png) \n➥ círculo en el mapa que representa X cantidad de jugadores. \n**EJ:** Blob T1 (11 Pjs), Blob T2 (21 Pjs) \n\n `Choke`\n➥ espacio reducido que se puede aprovechar para ganar ventaja en peleas. \n\n `Engage`\n➥ iniciar un ataque contra enemigos. \n\n `Counter engage`\n➥ iniciar el ataque seguidamente después de que el equipo enemigo haya efectuado el suyo. \n\n `Divear`\n➥ adentrarse en mazmorras con el fin de emboscar a una party (grupo). \n\n `Flankear` \n➥ posicionamiento por un costado o punto ciego de un punto inicial de combate. \n\n `Zonear`\n➥ pasar de mapa, se marca por los cuadrantes del mismo. \n\n `Ping`\n➥ señal amarilla marcada por un jugador en el minimapa.\n\n `Cuadrantes`\n➥ cuarta parte de la zona, tomando de referencia los rumbos (Norte, sur, este y oeste). \n\n `Holdear`\n➥ aguantar la posición.',
 					inline: true,
 				}
     )
@@ -55,7 +55,7 @@ module.exports = {
 			)
 			.setColor("#057DD2")
 			.setDescription(
-				'**Actualmente nuestro HO se encuentra en __Dryvein Cross__**\n> [Ver la ruta más rápida desde el portal de Bridgewatch](https://i.imgur.com/0Xbp3oF.png)'
+				'**Actualmente no tenemos disponible HO**'
 			)
 			.setImage('https://i.imgur.com/cMp8DnN.png');
     
