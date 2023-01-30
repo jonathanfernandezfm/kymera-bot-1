@@ -55,7 +55,7 @@ module.exports = {
 			)
 			.setColor("#057DD2")
 			.setDescription(
-				'**Actualmente no tenemos disponible HO**'
+				'[Acceder a la ruta a Windgrass Border](https://i.imgur.com/8tFI0Jv.png)'
 			)
 			.setImage('https://i.imgur.com/cMp8DnN.png');
     

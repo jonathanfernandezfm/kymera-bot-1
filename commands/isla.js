@@ -7,19 +7,9 @@ module.exports = {
 		const row = new ActionRowBuilder().addComponents(
 			new SelectMenuBuilder().setCustomId('isla').setPlaceholder('Seleccionar una opción').addOptions(
 				{
-					label: 'Distribución de cofres personales',
-					value: 'distribucion',
-					emoji: '1022572341160587354',
-				},
-				{
 					label: 'Sistema de repartición de loot',
 					value: 'reparto',
 					emoji: '1037148095160537109',
-				},
-				{
-					label: 'Reclamar cofre personal',
-					value: 'reclamar',
-					emoji: '🎟️',
 				}
 			)
 		);
@@ -28,7 +18,7 @@ module.exports = {
 
 			.setColor("#057DD2")
 			.setDescription(
-				'<:loot:1051932396498473010> Para el reparto del loot hay disponible un cofre general donde **todos los miembros que sean <@&1016043570773381190> en adelante** podrán hacerlo sin necesidad de que haya un integrante del equipo de administración conectado.\n\n🎟️ Si aún no se te ha asignado un cofre personal y vas a hacer contenido diario, haz click en la opcion **\"Reclamar cofre personal\"** para abrir un ticket.'
+				'<:loot:1051932396498473010> Para el reparto del loot hay disponible un cofre general donde **todos los miembros que sean <@&1016043570773381190> en adelante** podrán hacerlo sin necesidad de que haya un integrante del equipo de administración conectado.\n\n🎟️ Existe un tiempo establecido para reclamar tu loot, ya que si no es reclamado, lo perderás.'
 			)
 			.setImage('https://i.imgur.com/nelA09I.png');
 

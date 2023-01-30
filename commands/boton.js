@@ -4,12 +4,14 @@ module.exports = {
 	name: 'boton',
 	description: 'Crea mensaje de formulario',
 	execute: async (msg) => {
-		const row = new ActionRowBuilder().addComponents(
-			new ButtonBuilder()
-				.setCustomId('boton')
-				.setLabel('Rellenar formulario 📝')
-				.setStyle(ButtonStyle.Success)
-		);
+		
+		const row = new ActionRowBuilder()
+			.addComponents(
+				new ButtonBuilder()
+					.setCustomId('boton')
+					.setLabel('📝')
+					.setStyle(ButtonStyle.Success),
+			);
 
 		const embed = new EmbedBuilder()
 			.setColor("#057DD2")
