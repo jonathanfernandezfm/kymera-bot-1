@@ -13,7 +13,7 @@ module.exports = {
 			});
 		}
 
-		const modal = new ModalBuilder().setCustomId('formulario_modal').setTitle('Formulario');
+		const modal = new ModalBuilder().setCustomId('formulario_modal').setTitle('Formulario de ingreso');
 
 		const nombreInput = new TextInputBuilder()
 			.setCustomId('pregunta_nombre')

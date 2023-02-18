@@ -6,7 +6,7 @@ module.exports = {
 	execute: async (interaction) => {
 		const embed_general = new EmbedBuilder()
 			
-			.setColor('#c76e33')
+			.setColor('#CD8543')
 			.setDescription('`Normas aplicables con carácter general⠀`')
 
 			.addFields(
@@ -55,7 +55,7 @@ module.exports = {
 
 		const embed_ncaerleon = new EmbedBuilder()
 			
-			.setColor('#5f2626')
+			.setColor('#FF2424')
 			.setDescription('`Normas aplicables únicamente a Caerleon`')
 
 			.addFields(

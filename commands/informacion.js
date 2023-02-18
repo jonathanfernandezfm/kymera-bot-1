@@ -5,7 +5,7 @@ module.exports = {
 	description: 'Informacion',
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
-			new SelectMenuBuilder().setCustomId('informacion').setPlaceholder('Seleccionar una opción').addOptions(
+			new SelectMenuBuilder().setCustomId('informacion').setPlaceholder('☰⠀Abrir menú de información general').addOptions(
         {
 					label: 'Acrónimos y siglas de Albion',
 					value: 'terminos',
@@ -34,9 +34,9 @@ module.exports = {
 			.setColor("#057DD2")
       
 			.setDescription(
-				'\n\n<:portal:1050583981608943676> ‎ Actualmente nuestro contenido se enfoca en el portal de Martlock. Podrás acceder a la isla privada del gremio mediante el **planificador de viajes** y seleccionando **"Isla de Kymera Martlock"**.\n\n<:raton:1050588057696469072> ‎Para ver los diferentes apartados que hay disponible actualmente, **haz click en el menú desplegable** de abajo.\n'
+				'\n\n<:portal:1050583981608943676> ‎ Actualmente nuestro contenido y actividades grupales se enfocan en el portal de Martlock. \n\n :compass: ‎ Podrás acceder a la isla privada del gremio mediante el planificador de viajes y seleccionando **"Isla de Kymera Martlock"**.\n\n<:opcion:1070514429105545218> ‎ Para ver los diferentes apartados que hay disponible actualmente, **haz click en el menú desplegable** de abajo.\n'
 			)
-			.setImage('https://i.imgur.com/WMOBXgc.png');
+			.setImage('https://i.imgur.com/1HLf44Q.png');
 
 		await msg.channel.send({
 			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>  **INFORMACIÓN GENERAL SOBRE KYMERA:**\n➥ actividades que realizamos, objetivos, hideout, terminología...\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
