@@ -34,7 +34,7 @@ module.exports = {
 			.setColor("#057DD2")
       
 			.setDescription(
-				'\n\n<:portal:1050583981608943676> ‎ Actualmente nuestro contenido y actividades grupales se enfocan en el portal de Martlock. \n\n :compass: ‎ Podrás acceder a la isla privada del gremio mediante el planificador de viajes y seleccionando **"Isla de Kymera Martlock"**.\n\n<:opcion:1070514429105545218> ‎ Para ver los diferentes apartados que hay disponible actualmente, **haz click en el menú desplegable** de abajo.\n'
+				'\n\n<:portal:1050583981608943676> ‎ Actualmente nuestro contenido y actividades grupales se enfocan en el portal de Martlock. \n\n :compass: ‎ Podrás acceder a la isla privada del gremio mediante el planificador de viajes y seleccionando **"Isla de Kymera Martlock"**.\n\n<:opcion:1076525812930576403> ‎ Para ver los diferentes apartados que hay disponible actualmente, **haz click en el menú desplegable** de abajo.\n'
 			)
 			.setImage('https://i.imgur.com/1HLf44Q.png');
 
