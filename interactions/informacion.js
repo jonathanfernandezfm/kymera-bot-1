@@ -35,8 +35,7 @@ module.exports = {
 			.setColor("#057DD2")
 			.setDescription(
 				'ㅤ\n> 1️⃣⠀**Realizar actividades con un mínimo de IP** \n```1200 para actividades de roaming, caminos, caerleon...```   \n> 2️⃣⠀**Llegar a rango plata como mínimo** \n```Compromiso para obtener 25K de puntos de temporada y con intención de llegar a 40K para subir de calidad``` \n> 3️⃣⠀**Contenido diario de fama para subir armas principales**\n```Grupos para estáticas,  HCE...``` \n> 4️⃣ **Formar grupos consistentes para contenido PVP**\n```20v20, 5v5, caminos avalonianos, crystals...```\n> 5️⃣⠀**Ser más activos en zona negra**\n```Cofres, orbes, arañas...```\n '
-			)
-			.setImage('https://i.imgur.com/iAa2xlv.png');
+			);
 
 
 		const embed_caerleon = new EmbedBuilder()
@@ -46,8 +45,7 @@ module.exports = {
 			.setColor("#057DD2")
 			.setDescription(
 				'\n\n `¿En qué consiste Caerleon?` <:lobo:1050585944497074188>\n➥ Es una actividad que realizamos frecuentemente para la obtención de **puntos de facción** y así mismo hacer economía y aprender en cuanto a **posicionamiento** en peleas a baja escala. \n\n***No es obligatorio asistir, pero sí aconsejable.*** \n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`¿Cómo puedo asistir?` <:evento:1050584054803726466>\n➥ Para poder participar en los grupos de Caerleon deberás equiparte con las **builds correspondientes** y tener un **mínimo de IP** (1200) con el equipo equivalente a <:t6:1050584149070721075>.\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`¿Qué build debo llevar?` <:arma:1050584076869976084>\n➥ Actualmente la composición que llevamos la forman **armas de daño en área** (AOE) e intentamos jugar al **clap**. \nAccede al canal <#1015933830760247429> para más información.\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`¿Qué ocurre si muero?` <:dead:1050584050747834378>\n➥ En Caerleon hay reequip de las personas que mueran. **Los que hayan obtenido el rol** de <@&1020635840327729196> en el discord **pueden optar a reequip**, de lo contrario, tendrás que **solicitar tu rol en el canal** <#1015940451410378832>.\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`¿Qué es el reequip?` <:reequip:1050583984771444776>\n➥ Es un **sistema de reequipamiento** por el cual, si mueres, nuestro <#1015940190583402506> pagará tu equipo (250K) **si tienes el mínimo requerido** (2 armas o más al 75 de spec de diferentes ramas) y el **rol** de <@&1020635840327729196> en discord.'
-			)
-			.setImage('https://i.imgur.com/few3qtu.png');
+			);
 
 		const embed_hideout = new EmbedBuilder()
 			.setTitle(
@@ -56,8 +54,7 @@ module.exports = {
 			.setColor("#057DD2")
 			.setDescription(
 				'[Acceder a la ruta de Windgrass Border](https://i.imgur.com/8tFI0Jv.png)'
-			)
-			.setImage('https://i.imgur.com/cMp8DnN.png');
+			);
     
     
 		switch (interaction.values[0]) {
