@@ -68,7 +68,7 @@ module.exports = {
 			)
 
 		await msg.channel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>  **BIENVENIDO AL SISTEMA DE ROLES**\n➥ si cumples con los requisitos solicita tu rol\nㅤ    ',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>  **BIENVENIDO AL SISTEMA DE ROLES**\n➥ si cumples con los requisitos mínimos solicita tu rol\nㅤ    ',
 			embeds: [embed],
 			components: [boton, row],
 		});
