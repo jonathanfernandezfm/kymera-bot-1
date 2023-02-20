@@ -7,7 +7,7 @@ module.exports = {
 		const previous_embed = interaction.message.embeds[0];
 		const embed_formulario = EmbedBuilder.from(previous_embed)
 			.setColor('#fc0303')
-			.setTitle('<:icono_cofre:1022572341160587354>Reclamo de cofre denegadoㅤ❌');
+			.setTitle('❌‎ Asignación de rol denegada');
 
 		await interaction.message.edit({
 			embeds: [embed_formulario],
@@ -16,7 +16,7 @@ module.exports = {
 
 		const dmChannel = await interaction.message.mentions.users.first().createDM();
 
-		const embed_response = new EmbedBuilder().setColor('#fc0303').setTitle('Tu cofre ha sido denegadoㅤ❌');
+		const embed_response = new EmbedBuilder().setColor('#fc0303').setTitle('❌‎ No hemos podido asignarte el rol debido a que no cuentas con los requisitos mínimos. Inténtalo en otro momento');
 
 		dmChannel.send({
 			content: 'ㅤ    ',

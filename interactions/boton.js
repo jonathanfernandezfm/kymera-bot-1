@@ -14,14 +14,13 @@ module.exports = {
 
 		const embed_reclamado = new EmbedBuilder()
 		
-      .setDescription(`Un integrante de la administración atenderá tu petición lo má rápido posible.`)
+      .setDescription(`✅‎ **Solicitud enviada correctamente.**\n Un integrante de la administración atenderá tu petición lo más rápido posible.`)
       
 			.setColor("#057DD2");
 
 		const embed_reclamo = new EmbedBuilder()
 			.setColor(3697893)
-			.setTitle('<:icono_cofre:1022572341160587354> Nuevo reclamo de cofre')
-			.setDescription(`👤 Usuario en Discord: <@${interaction.user.id}>\n`)
+			.setDescription(`👤 <@${interaction.user.id}> **HA SOLICITADO UN ROL**\n\n Contacta con el usuario y comprueba si reúne los requisitos mínimos para asignárselo en discord.`)
 			.setThumbnail(interaction.user.displayAvatarURL());
 
 		switch (interaction.values[0]) {
@@ -54,7 +53,7 @@ module.exports = {
 				// eslint-disable-next-line no-case-declarations
 				const channel = await interaction.guild.channels.fetch(canal_reclamos);
 				await channel.send({
-					content: `\n> Nuevo reclamo de cofre de <@${interaction.user.id}>\n`,
+					content: `\n> Nuevo reclamo de rol de <@${interaction.user.id}>\n`,
 					embeds: [embed_reclamo],
 					components: [row],
 				});

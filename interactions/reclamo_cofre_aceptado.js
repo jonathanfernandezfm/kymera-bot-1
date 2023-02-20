@@ -7,7 +7,7 @@ module.exports = {
 		const previous_embed = interaction.message.embeds[0];
 		const embed_formulario = EmbedBuilder.from(previous_embed)
 			.setColor('#17fc03')
-			.setTitle('<:icono_cofre:1022572341160587354>Reclamo de cofre realizadoㅤ✅');
+			.setTitle('✅‎ Rol asignado correctamente');
 
 		await interaction.message.edit({
 			embeds: [embed_formulario],
@@ -17,7 +17,7 @@ module.exports = {
 		const user = interaction.message.mentions.users.first();
 		const dmChannel = await user.createDM();
 
-		const embed_response = new EmbedBuilder().setColor('#17fc03').setTitle('Tu cofre ha sido asignadoㅤ✅');
+		const embed_response = new EmbedBuilder().setColor('#17fc03').setTitle('✅‎ Se te ha asignado un nuevo rol');
 
 		dmChannel.send({
 			content: 'ㅤ    ',
