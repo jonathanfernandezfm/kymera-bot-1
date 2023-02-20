@@ -64,7 +64,7 @@ module.exports = {
 		const embed = new EmbedBuilder()
 			.setColor("#057DD2")
 			.setDescription(
-				'\n\n🥋‎ Aquí encontrarás información esencial sobre los requisitos necesarios para obtener los roles específicos de actividades grupales y permisos de membresía.\n\n⚔️‎ Si crees que cumples los requisitos, abre un ticket accediendo al menú desplegable de abajo o contacta con un <@&1015944979136389190> o <@&1015942996455325719> para que podamos asignártelo.\n\n'
+				'\n\n🥋‎ Aquí encontrarás información esencial sobre los requisitos necesarios para obtener los roles específicos de actividades grupales y permisos de membresía.\n\n⚔️‎ Si crees que cumples los requisitos, abre un ticket accediendo al menú desplegable de abajo o contacta con un <@&1015944979136389190> o <@&1015942996455325719>.\n\n'
 			)
 
 		await msg.channel.send({
