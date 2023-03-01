@@ -17,7 +17,7 @@ module.exports = {
 		const embed = new EmbedBuilder()
 			.setColor("#057DD2")
 			.setDescription(
-				'\n\n **El hecho de acceder al discord significa que has leído, entendido y aceptado en su totalidad las mismas y puedes ser expulsado en cualquier momento.** \n\n <:ayuda:1045652052400939078> **__¿QUÉ ES KYMERA?__** \n\n **➠**‎ **Kymera es una comunidad de habla hispana** con actividad en horario europeo que fue creado con la finalidad de conocer gente, pasarlo bien entre sus integrantes y formar un ambiente sano y agradable.\n\n\ **➠**‎ **La intención principal** es mantener una comunidad española de diversos juegos (Albion Online, Guild of wars 2,  Throne and Liberty) y seguir expandiéndonos poco a poco.'
+				'\n\n **El hecho de acceder al discord significa que has leído, entendido y aceptado en su totalidad las mismas y puedes ser expulsado en cualquier momento.** \n\n  **__¿QUÉ ES KYMERA?__** <:ayuda:1045652052400939078>\n\n **➠**‎ **Kymera es una comunidad de habla hispana** con actividad en horario europeo que fue creado con la finalidad de conocer gente, pasarlo bien entre sus integrantes y formar un ambiente sano y agradable.\n\n\ **➠**‎ **La intención principal** es mantener una comunidad española de diversos juegos (Albion Online, Guild of wars 2,  Throne and Liberty) y seguir expandiéndonos poco a poco.'
 			)
     .setImage('https://i.imgur.com/OV3KcX6.png');
     
