@@ -26,11 +26,11 @@ module.exports = {
 
 		const embed = new EmbedBuilder()
 
-			.setColor(3697893)
+			.setColor("#057DD2")
 			.setDescription(
-				'\n\n> 🥇 Aquí encontrarás información esencial sobre los rangos representativos de nuestra comunidad.\n\n> 👑 Para entender el funcionamiento interno de Kymera es necesario que conozcas el trabajo que realiza cada rango.\n\n> <:opcion:1076525812930576403> Para acceder a los apartados haz click en el menú de abajo para navegar entre las diferentes opciones.\n'
+				'\n\n 🥇 Aquí encontrarás información esencial sobre los rangos representativos de nuestra comunidad.\n\n 👑 Para entender el funcionamiento interno de Kymera es necesario que conozcas el trabajo que realiza cada rango.\n\n <:opcion:1076525812930576403> Accede a los apartados haciendo click en el menú de abajo para navegar entre las diferentes opciones.\n'
 			)
-			.setImage('https://i.imgur.com/fDDXqn0.png');
+			.setImage('https://i.imgur.com/2Sztffy.png');
 
 		await msg.channel.send({
 			content: 'ㅤ    ',

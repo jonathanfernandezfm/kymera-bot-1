@@ -26,7 +26,7 @@ module.exports = {
     
 		const embed = new EmbedBuilder()
 			.setColor("#057DD2")
-			.setDescription('🔓‎ Desbloquea los canales seleccionando uno de los juegos disponibles**')
+			
 			
     .setImage('https://i.imgur.com/KZlfbHo.png');
 
