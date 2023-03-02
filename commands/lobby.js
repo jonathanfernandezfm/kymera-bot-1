@@ -26,12 +26,12 @@ module.exports = {
     
 		const embed = new EmbedBuilder()
 			.setColor("#057DD2")
-			.setDescription('🔓‎ **Desbloquea los canales seleccionando los juegos disponibles**')
+			.setDescription('🔓‎ Desbloquea los canales seleccionando uno de los juegos disponibles**')
 			
     .setImage('https://i.imgur.com/KZlfbHo.png');
 
 		await msg.channel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>  **NUESTROS JUEGOS MMORPG**\n➥ Para acceder a los canales elige entre los juegos disponibles\nㅤ    ',
+			content: '⠀',
 			embeds: [embed],
 			components: [row],
 		});
