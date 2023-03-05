@@ -53,38 +53,29 @@ module.exports = {
 				'<@&1020660198186160138> : Es el responsable de la organización de los grupos relacionados con las actividades PvP/PvE dentro del gremio, dar contenido y revisar que todo esté en orden para el desarrollo de estas.'
 			);
 
-		const embed_rangosuser = new EmbedBuilder()
-			.setColor('#3498db')
-			.setThumbnail('https://i.imgur.com/99Vh3eP.png')
-			.setDescription(
-				'<@&1016043872469647375> : Los miembros más antiguos y fieles de la guild. Su aportación en las peleas es la más significativa. Podrán formar parte del equipo de administración si se requiere en momentos determinados.'
-			);
-
 		const embed_rangosuser1 = new EmbedBuilder()
 			.setColor('#3498db')
 			.setThumbnail('https://i.imgur.com/lNoJeTQ.png')
 			.setDescription(
-				'<@&1016043768916488222> : Como su propio nombre indica, los veteranos que ya llevan cierto tiempo en la guild y tienen la IP y los conocimientos de posicionamiento y pelea suficientes para actividades que requieren mayor dificultad'
+				'<@&1016043768916488222> : Miembros más antiguos y fieles que forman el core principal de la comunidad.'
 			);
 
 		const embed_rangosuser2 = new EmbedBuilder()
 			.setColor('#578b42')
 			.setThumbnail('https://i.imgur.com/tRXSKNx.png')
 			.setDescription(
-				'<@&1016043570773381190> : Miembros que han pasado satisfactoriamente el periodo de prueba y han gozan de los permisos de miembro tanto en discord como en Albion.'
+				'<@&1016043570773381190> : Miembros que han pasado satisfactoriamente el periodo de prueba y que gozan de permisos.'
 			);
 
 		const embed_rangosuser3 = new EmbedBuilder()
 			.setColor('#4cff05')
 			.setThumbnail('https://i.imgur.com/Z5ON3Gi.png')
 			.setDescription(
-				'<@&1016043481183031397> : Miembros que recién entran al gremio  y que tendrán un periodo de prueba de (2) semanas en el cual tendrán que conseguir cierta fama (PvP/PvP) para obtener los permisos de KYMERA miembro.'
+				'<@&1016043481183031397> : Miembros que recién entran en la comunidad  y que tendrán un periodo de prueba de (2) semanas.'
 			);
 
 		const embed_vacantes = new EmbedBuilder()
-			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    VACANTES    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━━'
-			)
+			
 			.setColor('386CE5') //
 			.setDescription(
 				'ㅤㅤㅤㅤ📝 **VACANTE A MODERACIÓN** ➠  🟥\n\nㅤㅤㅤㅤ📝 **VACANTE A RECLUTADOR** ➠ 🟩\n\nㅤㅤㅤㅤ📝 **VACANTE A CREADOR DE CONTENIDO** ➠ 🟩\n\nㅤㅤㅤㅤ📝 **VACANTE A CALLER** ➠ 🟩\n\n**⊱━━━━━━━━━━━━━━━━━━━━━━━━━━⊰**\n\n`✉️` **Para solicitar las vacantes disponibles, contactar por privado con**:\n<@&1015296284359413842> | <@&1015942996455325719> | <@&1015944979136389190>'
@@ -110,7 +101,7 @@ module.exports = {
 				return await interaction.reply({
 					content: '',
 					ephemeral: true,
-					embeds: [embed_rangosuser, embed_rangosuser1, embed_rangosuser2, embed_rangosuser3],
+					embeds: [embed_rangosuser1, embed_rangosuser2, embed_rangosuser3],
 				});
 			case 'reclamar':
 				return await interaction.reply({

@@ -15,13 +15,17 @@ module.exports = {
         )
         .addComponents(
 				new ButtonBuilder()
-					.setCustomId('guildwars')
+					.setCustomId('gw2')
 					.setLabel('Guild Wars 2')
           .setEmoji('1077372561010200738')
 					.setStyle(ButtonStyle.Secondary)
-          .setDisabled(true),
-        
-	
+        )
+	.addComponents(
+				new ButtonBuilder()
+					.setCustomId('ark')
+					.setLabel('Ark Survival')
+          .setEmoji('1081910727390015549')
+					.setStyle(ButtonStyle.Secondary)
 			);
     
 		const embed = new EmbedBuilder()
