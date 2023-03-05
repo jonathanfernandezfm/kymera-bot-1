@@ -23,8 +23,8 @@ module.exports = {
 	.addComponents(
 				new ButtonBuilder()
 					.setCustomId('ark')
-					.setLabel('Ark Survival')
-          .setEmoji('1081910727390015549')
+					.setLabel('Lost Ark')
+          .setEmoji('1081915553326825473')
 					.setStyle(ButtonStyle.Secondary)
 			);
     
