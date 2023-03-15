@@ -34,7 +34,7 @@ module.exports = {
 			.setImage('https://i.imgur.com/G1dJVIT.png');
 
      dmChannel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n**¡<@${interaction.user.id}>, has obtenido un nuevo rol!**\n\nPara navegar por nuestro Discord: \n> ➟ <#1041449500088221757>\n\nEs importante que leas la normativa si no lo has hecho anteriormente \n> ➟ <#1003699981032640542>\n\nLee el decálogo de los integrantes de nuestro gremio \n> ➟ <#1039132556165124116>\n\nConoce más acerca de los rangos del gremio y su funcionamiento \n> ➟ <#1015930698609213450>\n\nInfórmate acerca de los roles y como solicitarlos \n> ➟ <#1015940451410378832>\n',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n**¡Enhorabuena, has obtenido un nuevo rol!** (<@&1020271245339676755>\n\nPara navegar por nuestro Discord: \n> ➟ <#1041449500088221757>\n\nEs importante que leas la normativa si no lo has hecho anteriormente \n> ➟ <#1003699981032640542>\n\nLee el decálogo de los integrantes de nuestro gremio \n> ➟ <#1039132556165124116>\n\nConoce más acerca de los rangos del gremio y su funcionamiento \n> ➟ <#1015930698609213450>\n\nInfórmate acerca de los roles y como solicitarlos \n> ➟ <#1015940451410378832>\n',
        embeds: [embed_response],
       
 		});
