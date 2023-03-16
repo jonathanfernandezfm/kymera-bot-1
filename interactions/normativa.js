@@ -71,7 +71,7 @@ module.exports = {
 				},
 				{
 					name: 'ㅤ',
-					value: '> :three:  **RED IS DEATH**, si encontráis una party en la que esté otro miembro de Kymera, podéis matarlo.',
+					value: '> :three:  **RED IS DEATH**, si encontráis una party en la que esté otro miembro de Hydra, podéis matarlo.',
 					inline: false,
 				},
 				{

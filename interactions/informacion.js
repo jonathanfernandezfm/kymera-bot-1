@@ -30,7 +30,7 @@ module.exports = {
     
 		const embed_objectives = new EmbedBuilder()
 			.setTitle(
-				'🎯  **𝖮𝖡𝖩𝖤𝖳𝖨𝖵𝖮𝖲 𝖣𝖤 𝖫𝖠 𝖲𝖤𝖠𝖲𝖮𝖭 𝟣𝟪**'
+				'🎯  **𝖮𝖡𝖩𝖤𝖳𝖨𝖵𝖮𝖲 𝖣𝖤 𝖫𝖠 𝖲𝖤𝖠𝖲𝖮𝖭**'
 			)
 			.setColor("#057DD2")
 			.setDescription(
