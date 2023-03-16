@@ -51,7 +51,7 @@ module.exports = {
 					inline: true,
 				}
 			)
-			.setImage('https://i.imgur.com/15YdPGw.png');
+		;
 
 		const embed_ncaerleon = new EmbedBuilder()
 			
@@ -90,7 +90,7 @@ module.exports = {
 					inline: false,
 				}
 			)
-			.setImage('https://i.imgur.com/MHyJTVe.png');
+			;
 
 		const embed_nfama = new EmbedBuilder()
 	
@@ -123,7 +123,7 @@ module.exports = {
 					inline: true,
 				}
 			)
-			.setImage('https://i.imgur.com/wMvrGAv.png');
+		
 
     const embed_navalonianas = new EmbedBuilder()
 			
@@ -133,7 +133,7 @@ module.exports = {
 			.addFields(
 				{
 					name: 'ㅤ',
-					value: '> **Requisitos mínimos:** \n\n - Equipamiento adecuado 6.3(calidad sobresaliente o más) \n\n - Swaps 7 o equivalente mínimo \n\n - Set de pelea T8  (las que se piden) \n\n - Montura rápida/Caballo Gallardo \n\n - Capa Fort Sterling \n\n - 5 comidas de tu rol + 50 venenos ',
+					value: '> 📝 **Requisitos mínimos:** \n\n - Equipamiento adecuado 6.3(calidad sobresaliente o más) \n\n - Swaps 7 o equivalente mínimo \n\n - Set de pelea T8  (las que se piden) \n\n - Montura rápida/Caballo Gallardo \n\n - Capa Fort Sterling \n\n - 5 comidas de tu rol + 50 venenos ',
 					inline: true,
 				},
 				{
@@ -157,7 +157,7 @@ module.exports = {
 					inline: false,
 				}
 			)
-			.setImage('https://i.imgur.com/Dcj1E1Y.png');
+			;
 
 		switch (interaction.values[0]) {
 			case 'general':
