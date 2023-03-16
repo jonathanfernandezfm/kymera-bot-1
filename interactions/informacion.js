@@ -53,7 +53,7 @@ module.exports = {
 			)
 			.setColor("#057DD2")
 			.setDescription(
-				'[Acceder a la ruta de Windgrass Border](https://i.imgur.com/8tFI0Jv.png)'
+				'Actualmente sin Hideout'
 			);
     
     
