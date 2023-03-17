@@ -31,10 +31,10 @@ module.exports = {
 			.setColor('#64ff64')
 			
 
-			.setImage('https://i.imgur.com/G1dJVIT.png');
+			.setImage('https://i.imgur.com/1TJFTzF.png');
 
      dmChannel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n**¡Enhorabuena, has obtenido un nuevo rol!** (<@&1020271245339676755>\n\nPara navegar por nuestro Discord: \n> ➟ <#1041449500088221757>\n\nEs importante que leas la normativa si no lo has hecho anteriormente \n> ➟ <#1003699981032640542>\n\nLee el decálogo de los integrantes de nuestro gremio \n> ➟ <#1039132556165124116>\n\nConoce más acerca de los rangos del gremio y su funcionamiento \n> ➟ <#1015930698609213450>\n\nInfórmate acerca de los roles y como solicitarlos \n> ➟ <#1015940451410378832>\n',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n**¡Enhorabuena, has obtenido un nuevo rol!**\n\n Jerarquía, rangos y ascensos: \n> ➟ <#1085582548010279032>\n> ➟ <#1085582750137991218>\n> ➟ <#1085582936855805962>\n\nPara saber acerca de la normativa de las actividades: \n> ➟ <#1085580942762053692>\n\n No te pierdas los cambios que ocurren en Albion: \n> ➟ <#1015776416920502362>\n\n Conoce nuestro Sistema DNT: \n> ➟ <#1085584131691380776>\n\n Elige el rol (2 mínimo) que más se adapte a tu jugabilidad: \n> ➟ <#1015940451410378832>\n\nㅤ    ',
        embeds: [embed_response],
       
 		});

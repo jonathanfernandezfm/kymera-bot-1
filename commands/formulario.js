@@ -7,9 +7,8 @@ module.exports = {
 		const row = new ActionRowBuilder().addComponents(
 			new ButtonBuilder()
 				.setCustomId('formulario')
-				.setLabel('En construcción')
+				.setLabel('Rellenar formulario')
 				.setStyle(ButtonStyle.Success)
-      .setDisabled(true),
 		);
 
 		const embed = new EmbedBuilder()

@@ -20,7 +20,7 @@ module.exports = {
       .setColor('#fc0303')
       .setTitle('`❌` Tu formulario ha sido denegado ')
       .setDescription('No cumples con los requisitios, inténtalo en otro momento')
-      .setImage('https://i.imgur.com/CYz5IsA.png');
+      .setImage('https://i.imgur.com/VCmdWKH.png');
 
     dmChannel.send({
       content: 'ㅤ    ',
