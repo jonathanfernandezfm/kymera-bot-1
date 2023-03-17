@@ -5,7 +5,7 @@ module.exports = {
 	description: 'Rangos',
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
-			new SelectMenuBuilder().setCustomId('rangos').setPlaceholder('☰⠀Abrir menú de rangos de la comunidad').addOptions(
+			new SelectMenuBuilder().setCustomId('rangos').setPlaceholder('☰⠀Abrir menú de rangos del gremio').addOptions(
 				{
 					label: 'Rangos administrativos',
 					value: 'distribucion',
@@ -30,7 +30,7 @@ module.exports = {
 			.setDescription(
 				'\n\n 🥇 Aquí encontrarás información esencial sobre los rangos representativos de nuestra comunidad.\n\n 👑 Para entender el funcionamiento interno de Kymera es necesario que conozcas el trabajo que realiza cada rango.\n\n <:opcion:1076525812930576403> Accede a los apartados haciendo click en el menú de abajo para navegar entre las diferentes opciones.\n'
 			)
-			.setImage('https://i.imgur.com/2Sztffy.png');
+			.setImage('https://i.imgur.com/4DdG4kc.png');
 
 		await msg.channel.send({
 			content: 'ㅤ    ',
