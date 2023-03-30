@@ -3,7 +3,7 @@ const { Events } = require('discord.js');
 module.exports = {
 	name: Events.InteractionCreate,
 	async execute(interaction) {
-		if (!interaction.isSelectMenu() && !interaction.isButton() && !interaction.isModalSubmit()) return;
+		if (!interaction.isStringSelectMenu() && !interaction.isButton() && !interaction.isModalSubmit()) return;
 
 		const interactionAction = interaction.client.interactions.get(interaction.customId);
 		if (!interactionAction) return;

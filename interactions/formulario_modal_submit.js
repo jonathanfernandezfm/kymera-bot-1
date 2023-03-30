@@ -45,7 +45,7 @@ module.exports = {
 			.addFields(
 				{ name: '1) Nombre de usuario en Albion:', value: `> ${nombre}` },
 				{ name: '2) ¿Resides en Europa? ¿Tienes horario europeo?:', value: `> ${horario}` },
-				{ name: '3) ¿Qué contenido quieres hacer en Kymera?:', value: `> ${contenido}` },
+				{ name: '3) ¿Qué contenido quieres hacer en Hydra?:', value: `> ${contenido}` },
 				{ name: '4) ¿Cuál es tu anterior gremio?:', value: `> ${guild}` },
 				{ name: '5) Rol principal, secundario y armas usadas/spec:', value: `> ${rol}` },
 				{ name: 'Fama estimada PvP + PvE', value: `> ${(totalFame / 10 ** 6).toFixed(2)} M` }

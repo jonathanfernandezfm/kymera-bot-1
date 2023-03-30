@@ -17,28 +17,27 @@ module.exports = {
 
 		const nombreInput = new TextInputBuilder()
 			.setCustomId('pregunta_nombre')
-			.setLabel('Nombre de tu personaje en Albion')
-      .setPlaceholder('Es importante que coincida con tu usuario de discord')
+			.setLabel('👨🏻‍🎓 Nombre de tu personaje en Albion')
 			.setStyle(TextInputStyle.Short);
     
 		const horarioInput = new TextInputBuilder()
 			.setCustomId('pregunta_horario')
-			.setLabel('¿Resides en Europa? ¿Tienes horario europeo?')
+			.setLabel('🌎 ¿Resides en Europa/horario europeo?')
 			.setStyle(TextInputStyle.Short);
 
 		const contenidoInput = new TextInputBuilder()
 			.setCustomId('pregunta_contenido')
-			.setLabel('¿Qué contenido quieres hacer en Kymera?')
+			.setLabel('⚔️ ¿Qué contenido quieres hacer en Hydra?')
 			.setStyle(TextInputStyle.Short);
 
 		const guildInput = new TextInputBuilder()
 			.setCustomId('pregunta_guild')
-			.setLabel('¿Cuál es tu anterior gremio?')
+			.setLabel('👥 ¿Cuál es tu anterior gremio?')
 			.setStyle(TextInputStyle.Short);
 
 		const rolInput = new TextInputBuilder()
 			.setCustomId('pregunta_rol')
-			.setLabel('Rol principal, secundario y armas usadas/spec')
+			.setLabel('🔮 Rol principal/secundario/armas usadas/spec')
 			.setStyle(TextInputStyle.Paragraph);
 
 		const actionRow1 = new ActionRowBuilder().addComponents(nombreInput);
