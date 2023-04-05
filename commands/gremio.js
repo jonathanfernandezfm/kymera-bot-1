@@ -1,7 +1,7 @@
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
 module.exports = {
-	name: 'inicio',
+	name: 'gremio',
 	description: 'Inicio',
 	execute: async (msg) => {
 
@@ -10,7 +10,7 @@ module.exports = {
     new ButtonBuilder()
 					.setURL('https://albiononline.com/home')
         .setEmoji("1070505218984378438")
-					.setLabel('Hydra Guild Website')
+					.setLabel('Hydra Guild Web')
 					.setStyle(ButtonStyle.Link)
         .setDisabled(true),
         
