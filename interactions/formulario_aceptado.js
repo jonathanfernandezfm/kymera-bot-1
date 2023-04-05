@@ -34,7 +34,7 @@ module.exports = {
 			.setImage('https://i.imgur.com/1TJFTzF.png');
 
      dmChannel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n**¡Enhorabuena, has obtenido un nuevo rol!**\n\n Jerarquía, rangos y ascensos: \n> ➟ <#1085582548010279032>\n> ➟ <#1085582750137991218>\n> ➟ <#1085582936855805962>\n\nPara saber acerca de la normativa de las actividades: \n> ➟ <#1085580942762053692>\n\n No te pierdas los cambios que ocurren en Albion: \n> ➟ <#1015776416920502362>\n\n Conoce nuestro Sistema DNT: \n> ➟ <#1085584131691380776>\n\n Elige el rol (2 mínimo) que más se adapte a tu jugabilidad: \n> ➟ <#1015940451410378832>\n\nㅤ    ',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n**¡Enhorabuena, has obtenido un nuevo rol!**\n\n Jerarquía, rangos y ascensos: \n> ➟ <#1085582548010279032>\n> ➟ <#1085582750137991218>\n> ➟ <#1016039606338207928>\n\n Para saber acerca de la normativa de las actividades: \n> ➟ <#1085580942762053692>\n\n No te pierdas ningún evento: \n> ➟ <#1081575936098578463>\n\n Conoce nuestro Sistema DNT: \n> ➟ <#1085584131691380776>\n\n Elige el rol que más se adapte a tu jugabilidad: \n> ➟ <#1015940451410378832>\n\nㅤ    ',
        embeds: [embed_response],
       
 		});
