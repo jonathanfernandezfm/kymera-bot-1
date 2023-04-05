@@ -31,7 +31,6 @@ await msg.channel.send({
     
 await msg.channel.send({
 			content: 'https://i.imgur.com/C6k3WX9.png',
-
   
 		})
     
