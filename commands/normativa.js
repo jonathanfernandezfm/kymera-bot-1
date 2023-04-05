@@ -1,11 +1,11 @@
-const { ActionRowBuilder, StringSelectMenuBuilder } = require('discord.js');
+const { ActionRowBuilder, EmbedBuilder, SelectMenuBuilder } = require('discord.js');
 
 module.exports = {
 	name: 'normativa',
 	description: 'Normativa',
 	execute: async (msg) => {
 		const row = new ActionRowBuilder().addComponents(
-			new StringSelectMenuBuilder().setCustomId('normativa').setPlaceholder('☰⠀Abrir menú de normativas').addOptions(
+			new SelectMenuBuilder().setCustomId('normativa').setPlaceholder('☰⠀Abrir menú de normativas').addOptions(
 				{
 					label: 'Normativa General',
 					value: 'general',
@@ -27,32 +27,21 @@ module.exports = {
 					emoji: '1070750558434103296',
 				}
 			)
-      );
+		);
 
-    await msg.channel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n',
+		const embed = new EmbedBuilder()
 
-       
-    })
-    await msg.channel.send({
-			content: 'https://i.imgur.com/a9WEhoO.png',
 
-		})
+			.setColor('386CE5') //
+			.setDescription(
+				'\n\n <:decalogo:1050727155908223016> Para el desarrollo de nuestras actividades existe una normativa vigente que es de obligación cumplir. \n\n 👥 **Todos los miembros del gremio** tienen el deber de respetar las normas generales en el desarrollo de las actividades del gremio, de lo contrario, el equipo de administración tomará medidas.'
+			)
+			.setImage('https://i.imgur.com/2nHSpMW.png');
 
-    await msg.channel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n',
-
-    })
-await msg.channel.send({
-			content: '\n\n 📚 Para el desarrollo de cada una de las actividades **existe una normativa vigente que es de obligación cumplir**. Todos los miembros del gremio tienen el deber de respetar las normas generales en el desarrollo de las actividades del gremio, de lo contrario, el equipo de administración tomará medidas.',
-		});
-
-    await msg.channel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n',
-
-       
-    })
 		await msg.channel.send({
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>  **INFORMACIÓN GENERAL SOBRE NUESTRA NORMATIVA:**\n➥ Lee nuestro <#1085547437239849010> de miembros.\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
+      
+			embeds: [embed],
 			components: [row],
 		});
 

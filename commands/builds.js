@@ -13,7 +13,7 @@ module.exports = {
 					emoji: '🐺',
 				},
 				{
-					label: 'Ganking2',
+					label: 'Ganking',
           description: 'Composición para gankear en open world',
 					value: 'gank',
 					emoji: '<:gank:1055567880646832229>',

@@ -75,7 +75,7 @@ await msg.channel.send({
 			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n',
 })
 await msg.channel.send({
-			content: 'https://i.imgur.com/30H5dHl.png',
+			content: 'https://i.imgur.com/k9IZzBK.png',
 })
 		await msg.delete();
 	},
