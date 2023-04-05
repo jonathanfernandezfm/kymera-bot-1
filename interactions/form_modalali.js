@@ -1,43 +1,43 @@
 const { ModalBuilder, TextInputBuilder, TextInputStyle, ActionRowBuilder } = require('discord.js');
-const { canal_formulario } = require('../data/db.json');
+const { canal_formulario_ali } = require('../data/db.json');
 
 
 module.exports = {
-	name: 'formulario',
+	name: 'formularioes',
 	description: 'Formulario modal',
 	execute: async (interaction) => {
-		if (!canal_formulario) {
+		if (!canal_formulario_ali) {
 			return await interaction.reply({
 				content: '🔴 ERROR: El canal para mandar formularios no esta configurado, contacta con BkNcs',
 				ephemeral: true,
 			});
 		}
 
-		const modal = new ModalBuilder().setCustomId('formulario_modal').setTitle('Formulario de ingreso');
+		const modal = new ModalBuilder().setCustomId('formulario_modal_ali').setTitle('Solicitud de alianza');
 
 		const nombreInput = new TextInputBuilder()
 			.setCustomId('pregunta_nombre')
-			.setLabel('👨🏻‍🎓 Nombre de tu personaje en Albion')
+			.setLabel('🚩 Nombre del gremio/alianza')
 			.setStyle(TextInputStyle.Short);
     
 		const horarioInput = new TextInputBuilder()
 			.setCustomId('pregunta_horario')
-			.setLabel('🌎 ¿Resides en Europa/horario europeo?')
+			.setLabel('🕒 Horario del gremio/alianza')
 			.setStyle(TextInputStyle.Short);
 
 		const contenidoInput = new TextInputBuilder()
 			.setCustomId('pregunta_contenido')
-			.setLabel('⚔️ ¿Qué contenido quieres hacer en Hydra?')
+			.setLabel('🤝 ¿Por qué quieres formar alianza con Hydra?')
 			.setStyle(TextInputStyle.Short);
 
 		const guildInput = new TextInputBuilder()
 			.setCustomId('pregunta_guild')
-			.setLabel('👥 ¿Cuál es tu anterior gremio?')
+			.setLabel('👥 Integrantes activos del gremio/alianza')
 			.setStyle(TextInputStyle.Short);
 
 		const rolInput = new TextInputBuilder()
 			.setCustomId('pregunta_rol')
-			.setLabel('🔮 Rol principal/secundario/armas usadas/spec')
+			.setLabel('⚔️ Breve resumen del contenido que se ofrece')
 			.setStyle(TextInputStyle.Paragraph);
 
 		const actionRow1 = new ActionRowBuilder().addComponents(nombreInput);

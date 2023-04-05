@@ -1,4 +1,4 @@
-const { ActionRowBuilder, EmbedBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
 module.exports = {
 	name: 'inicio',
@@ -30,7 +30,7 @@ await msg.channel.send({
 		})
     
 await msg.channel.send({
-			content: 'https://i.imgur.com/qCOKhVc.png',
+			content: 'https://i.imgur.com/F7rkjWh.png',
 
   
 		})
