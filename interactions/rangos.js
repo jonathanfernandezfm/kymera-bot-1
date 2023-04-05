@@ -43,7 +43,7 @@ module.exports = {
 			.setColor('#9f6cb4')
 			.setThumbnail('https://i.imgur.com/HGCEKS8.png')
 			.setDescription(
-				'@&1016042908257894460> : Se asegura de la administración de las solicitudes, asesorar y reclutar nuevos miembros. Revisan de que estos cumplan con los requisitos mínimos requeridos y que el proceso sea rápido y fluido.'
+				'<@&1016042908257894460> : Se asegura de la administración de las solicitudes, asesorar y reclutar nuevos miembros. Revisan de que estos cumplan con los requisitos mínimos requeridos y que el proceso sea rápido y fluido.'
 			);
     const embed_rangosuser0 = new EmbedBuilder()
 			.setColor('#723288')
