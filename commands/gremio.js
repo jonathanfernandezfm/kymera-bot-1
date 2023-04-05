@@ -10,7 +10,7 @@ module.exports = {
     new ButtonBuilder()
 					.setURL('https://albiononline.com/home')
         .setEmoji("1070505218984378438")
-					.setLabel('Hydra Guild Web')
+					.setLabel('Hydra Guild Website')
 					.setStyle(ButtonStyle.Link)
         .setDisabled(true),
         
