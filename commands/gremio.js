@@ -40,7 +40,7 @@ await msg.channel.send({
   	})
     
 		await msg.channel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n:speech_balloon:‎ ‎ La jjjjjopinión de los miembros que de verdad **participen, colaboren y creen contenido para los integrantes del gremio** tendrá más peso en nuestra comunidad.\n\n:medal: ‎**Funcionamos por meritocracia** (rangos según méritos propios) y siempre teniendo en cuenta en todo momento la <#1085582548010279032> de rangos básica.\n\n💻  **Recordad que es un juego**, somos personas, cada uno tiene su vida y sus dramas, aquí jugamos para pasarlo bien, disfrutar, mejorar y sobre todo **Caerleon y PVP**.\nㅤ    ',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n:speech_balloon:‎ ‎ La opinión de los miembros que de verdad **participen, colaboren y creen contenido para los integrantes del gremio** tendrá más peso en nuestra comunidad.\n\n:medal: ‎**Funcionamos por meritocracia** (rangos según méritos propios) y siempre teniendo en cuenta en todo momento la <#1085582548010279032> de rangos básica.\n\n💻  **Recordad que es un juego**, somos personas, cada uno tiene su vida y sus dramas, aquí jugamos para pasarlo bien, disfrutar, mejorar y sobre todo **Caerleon y PVP**.\nㅤ    ',
       
 			
 			
