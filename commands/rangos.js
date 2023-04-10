@@ -41,7 +41,7 @@ module.exports = {
        
     })
 await msg.channel.send({
-			content: '\n\n 🥇 Aquí encontrarás información esencial sobre los rangos representativos de nuestra comunidad. Para entender el funcionamiento interno de Hydra **es necesario que conozcas el trabajo que realiza cada rango.**\n\n 🗳 Accede al apartado de vacantes para ver los puestos disponibles. Contacta con un integrante de moderación para aplicar a cualquiera de ellos.',
+			content: '\n\n 🥇 Aquí encontrarás información esencial sobre los rangos representativos de nuestra comunidad. Para entender el funcionamiento interno de Hydra **es necesario que conozcas el trabajo que realiza cada rango.** Estos rangos están clasificados en dos categorías:\n\n <:adms:1094941023324602500> **Administrativos** ➠ <@&1015296284359413842> | <@&1015942996455325719> | <@&1015944979136389190> | <@&1016011655957729331> \n\n <:users:1094941041062318130> **Usuarios** ➠ <@&1016043768916488222> | <@&1016043570773381190> | <@&1016043481183031397> | <@&1086242674027274361> \n\n🗳 Accede al apartado de vacantes para ver los puestos disponibles. Contacta con un integrante de moderación para aplicar a cualquiera de ellos.',
 		});
 
     await msg.channel.send({
