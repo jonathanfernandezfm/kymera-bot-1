@@ -17,9 +17,9 @@ module.exports = {
       
     .addComponents(
     new ButtonBuilder()
-					.setURL('https://albiononline.com/home')
+					.setURL('https://forum.albiononline.com/index.php/Thread/179823-%E2%9A%94%EF%B8%8F-HYDRA-Spanish-Guild-Reclutamos-nuevos-miembros-ES-%E2%9A%94%EF%B8%8F/')
       .setEmoji("1070505555363377163")
-					.setLabel('Albion Online Website')
+					.setLabel('Foro de reclutamiento')
 					.setStyle(ButtonStyle.Link),
 			);
     
