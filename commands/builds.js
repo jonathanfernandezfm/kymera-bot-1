@@ -8,11 +8,10 @@ module.exports = {
 const row = new ActionRowBuilder()
 			.addComponents(
 				new ButtonBuilder()
-					.setCustomId('builds')
+					
 					.setLabel('Acceder a las builds del gremio')
-          .setEmoji('🤼')
-          .setLink('')
-					.setStyle(ButtonStyle.Secondary),
+        .setURL('https://docs.google.com/spreadsheets/d/124RVREtD3Jftgh4BxyAnF9nuSCfbI9AHl3TFVzWc1eU/edit#gid=1092219548')
+					.setStyle(ButtonStyle.Link),
         
       )
     await msg.channel.send({
@@ -21,12 +20,12 @@ const row = new ActionRowBuilder()
 		});
 
     await msg.channel.send({
-			content: 'https://i.imgur.com/zUowfAx.png',
+			content: 'https://i.imgur.com/S1fDV6Y.png',
 			
 		});
 
 		await msg.channel.send({
-			content: '⠀⠀⠀⠀⠀⠀⠀⠀\n<:ayuda:1045652052400939078>  **ROLES DE ESPECIALIZACIÓN:**\n➥ Elige máximo dos roles diferentes que sean los que más uses.',
+			content: '⠀⠀⠀⠀⠀⠀⠀⠀',
 			
 			components: [row],
 		
