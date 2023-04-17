@@ -8,11 +8,10 @@ module.exports = {
     const row = new ActionRowBuilder()
       .addComponents(
     new ButtonBuilder()
-					.setURL('https://albiononline.com/home')
+					.setURL('https://hydraguild.webcindario.com/')
         .setEmoji("1070505218984378438")
 					.setLabel('Hydra Guild Website')
-					.setStyle(ButtonStyle.Link)
-        .setDisabled(true),
+					.setStyle(ButtonStyle.Link),
         
 			)
       
