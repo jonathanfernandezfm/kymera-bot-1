@@ -60,8 +60,8 @@ async function createCanvas(playerDataBody) {
 	context.font = "200 14px Arial";
 
 	context.fillText(
-		playerDataBody.AllianceTag !== ""
-			? playerDataBody.AllianceTag
+		playerDataBody.AllianceName !== ""
+			? playerDataBody.AllianceName
 			: "Sin alianza",
 		canvas.width / 2 + 70,
 		canvas.height / 2 + 15,
