@@ -1,23 +1,31 @@
 {
-  "name": "kymera",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon .",
-    "start": "node ."
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@napi-rs/canvas": "^0.1.40",
-    "discord.js": "^14.8.0",
-    "dotenv": "^16.0.3",
-    "nodemon": "^2.0.20",
-    "undici": "^5.12.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.25.0"
-  }
+    "name": "kymera",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon .",
+        "start": "node .",
+        "prettify": "prettier . --write",
+        "lint": "eslint"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@napi-rs/canvas": "^0.1.40",
+        "discord.js": "^14.8.0",
+        "dotenv": "^16.0.3",
+        "nodemon": "^2.0.20",
+        "prettier": "^3.0.0",
+        "undici": "^5.12.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.44.0"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "singleQuote": true
+    }
 }

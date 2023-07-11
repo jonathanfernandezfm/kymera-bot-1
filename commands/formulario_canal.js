@@ -3,13 +3,16 @@ const fs = require('node:fs');
 const path = require('path');
 
 module.exports = {
-	name: 'formulario_canal',
-	description: 'Guarda el canal para formularios',
-	execute: async (msg, args) => {
-		const canal_id = args[0].substring(args[0].indexOf('#') + 1, args[0].lastIndexOf('>'));
-		data.canal_formulario = canal_id;
-		const dataPath = path.join(__dirname, '../data/db.json');
-		fs.writeFileSync(dataPath, JSON.stringify(data));
-		await msg.delete();
-	},
+    name: 'formulario_canal',
+    description: 'Guarda el canal para formularios',
+    execute: async (msg, args) => {
+        const canal_id = args[0].substring(
+            args[0].indexOf('#') + 1,
+            args[0].lastIndexOf('>')
+        );
+        data.canal_formulario = canal_id;
+        const dataPath = path.join(__dirname, '../data/db.json');
+        fs.writeFileSync(dataPath, JSON.stringify(data));
+        await msg.delete();
+    },
 };
